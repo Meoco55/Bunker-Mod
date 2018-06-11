@@ -35,79 +35,45 @@ import net.minecraft.world.World;
 
 public class BlockUltimumCharger extends BlockBase implements ITileEntityProvider 
 {
-	//sets face toward player
 	public static final PropertyDirection FACING = BlockHorizontal.FACING;
-	
-	//is the furnace is active
 	public static final PropertyBool BURNING = PropertyBool.create("burning");
 	
-	
-	public BlockUltimumCharger(String name) 
-	{
+	public BlockUltimumCharger(String name) {
 		super(name, Material.IRON);
 		setSoundType(SoundType.METAL);
-		setHardness(5.0F);
-		setResistance(15.0F);
-		//setLightLevel(0.0F);
-		setLightOpacity(1);
-		//setBlockUnbreakable();
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH).withProperty(BURNING, false));
-		
 	}
-	public BlockRenderLayer getBlockLayer()
-    {
-        return BlockRenderLayer.CUTOUT;
-    }
-	
-	
-	public boolean isOpaqueCube(IBlockState state)
-    {
-        return false;
-    }
-	public boolean isFullCube(IBlockState state)
-    {
-        return false;
-    }
-	
 	@Override
-	public Item getItemDropped(IBlockState state, Random rand, int fortune) 
-	{
+	 public Item getItemDropped(IBlockState state, Random rand, int fortune) {
 		return Item.getItemFromBlock(ModBlocks.ULTIMUM_CHARGER);
 	}
-	
 	@Override
-	public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state)
-	{
+	public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state) {
 		return new ItemStack(ModBlocks.ULTIMUM_CHARGER);
 	}
-	
 	@Override
-	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitx, float hity, float hitz)
-	{
-		if(!worldIn.isRemote)
-		{
+	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
+		if(!worldIn.isRemote) {
 			playerIn.openGui(Bunkers.instance, Reference.GUI_ULTIMUM_CHARGER, worldIn, pos.getX(), pos.getY(), pos.getZ());
 		}
 		return true;
 	}
-	
 	@Override
-	public void onBlockAdded(World worldIn, BlockPos pos, IBlockState state)
-	{
+	public void onBlockAdded(World worldIn, BlockPos pos, IBlockState state) {
 		if (!worldIn.isRemote) 
         {
-           IBlockState north = worldIn.getBlockState(pos.north());
-           IBlockState south = worldIn.getBlockState(pos.south());
-           IBlockState west = worldIn.getBlockState(pos.west());
-           IBlockState east = worldIn.getBlockState(pos.east());
-           EnumFacing face = (EnumFacing)state.getValue(FACING);
-           
-           if (face == EnumFacing.NORTH && north.isFullBlock() && !south.isFullBlock()) face = EnumFacing.SOUTH;
-           else if (face == EnumFacing.SOUTH && south.isFullBlock() && !north.isFullBlock()) face = EnumFacing.NORTH;
-           else if (face == EnumFacing.WEST && west.isFullBlock() && !east.isFullBlock()) face = EnumFacing.EAST;
-           else if (face == EnumFacing.EAST && east.isFullBlock() && !west.isFullBlock()) face = EnumFacing.WEST;
-           worldIn.setBlockState(pos, state.withProperty(FACING, face), 2);
-       }
+            IBlockState north = worldIn.getBlockState(pos.north());
+            IBlockState south = worldIn.getBlockState(pos.south());
+            IBlockState west = worldIn.getBlockState(pos.west());
+            IBlockState east = worldIn.getBlockState(pos.east());
+            EnumFacing face = (EnumFacing)state.getValue(FACING);
+
+            if (face == EnumFacing.NORTH && north.isFullBlock() && !south.isFullBlock()) face = EnumFacing.SOUTH;
+            else if (face == EnumFacing.SOUTH && south.isFullBlock() && !north.isFullBlock()) face = EnumFacing.NORTH;
+            else if (face == EnumFacing.WEST && west.isFullBlock() && !east.isFullBlock()) face = EnumFacing.EAST;
+            else if (face == EnumFacing.EAST && east.isFullBlock() && !west.isFullBlock()) face = EnumFacing.WEST;
+            worldIn.setBlockState(pos, state.withProperty(FACING, face), 2);
+        }
 	}
 	
 	public static void setState(boolean active, World worldIn, BlockPos pos) 
@@ -188,5 +154,4 @@ public class BlockUltimumCharger extends BlockBase implements ITileEntityProvide
 	{
 		return ((EnumFacing)state.getValue(FACING)).getIndex();
 	}	
-	
-} 
+}

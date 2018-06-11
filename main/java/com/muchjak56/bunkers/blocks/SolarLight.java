@@ -41,9 +41,4 @@ public class SolarLight extends TorchType
 	public boolean canPlaceUpsideDown() {
 		return false;
 	}
-	@Override
-	 public void randomDisplayTick(IBlockState stateIn, World worldIn, BlockPos pos, Random rand)
-	    {
-		 return;
-	    }    
 }

@@ -11,5 +11,5 @@ public class Reference
 	public static final String COMMON_PROXY_CLASS = "com.muchjak56.bunkers.proxy.CommonProxy";
 
 	public static final int GUI_HYPO_SMELTER = 0;
-	public static final int GUI_ULTIMUM_CHARGER = 1;
+	public static final int GUI_ULTIMUM_CHARGER = 120;
 }
