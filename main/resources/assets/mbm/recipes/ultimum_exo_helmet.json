@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [  
+        "ABA",
+        "A A"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:infernium_core"
+        },       
+        "A":
+        {
+            "item": "mbm:ultimum_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:ultimum_exo_helmet",
+        "count": 1
+    }
+}

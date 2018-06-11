@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ABA",  
+        "G G",
+        "A A"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:infernium_core"
+        },
+        "G":
+        {
+            "item": "mbm:hardened_rod"
+        },
+        "A":
+        {
+            "item": "mbm:ultimum_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:ultimum_exo_leggings",
+        "count": 1
+    }
+}

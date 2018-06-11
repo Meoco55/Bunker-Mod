@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "H",
+        "H"
+    ],
+    
+    "key":
+    {
+        "H":
+        {
+            "item": "mbm:hardened_impurities_block"
+        }            
+        
+      },
+    "result":
+    {
+        "item": "mbm:hardened_rod",
+        "count": 3
+    }
+}

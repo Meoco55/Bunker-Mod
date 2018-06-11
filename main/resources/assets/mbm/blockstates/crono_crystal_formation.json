@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "mbm:crono_crystal_formation" }
+    }
+}

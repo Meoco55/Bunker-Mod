@@ -1,0 +1,7 @@
+{
+     "parent": "mbm:block/jump_pad",
+    "textures": {
+        "2": "mbm:blocks/jump_pad_t2"
+    }
+
+    }

@@ -1,0 +1,10 @@
+{
+    "variants": 
+    {
+        "facing=north": { "model": "mbm:xray_device" },
+        "facing=east": { "model": "mbm:xray_device", "y": 90 },
+        "facing=south": { "model": "mbm:xray_device", "y": 180 },
+        "facing=west": { "model": "mbm:xray_device", "y": 270 }
+        
+    }
+}

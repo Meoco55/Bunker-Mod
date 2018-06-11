@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": 
+    {
+        "up": "mbm:blocks/bunker_light_vert_pink",
+        "down": "mbm:blocks/bunker_light_vert_pink",
+        "north": "mbm:blocks/bunker_light_vert_pink",
+        "east": "mbm:blocks/bunkerwall1pink",
+        "south": "mbm:blocks/bunker_light_vert_pink",
+        "west": "mbm:blocks/bunkerwall1pink"
+    }
+}

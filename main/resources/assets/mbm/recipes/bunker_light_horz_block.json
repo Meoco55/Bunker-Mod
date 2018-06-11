@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "mbm:bunker_wall_block"
+    },
+ 
+    {
+      "item": "minecraft:Glowstone"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "mbm:bunker_light_horz_block",
+        "count": 1
+    }
+}

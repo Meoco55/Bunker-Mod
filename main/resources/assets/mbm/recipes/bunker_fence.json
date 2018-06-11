@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "HCH",
+        "HCH"
+    ],
+    
+    "key":
+    {
+        "H":
+        {
+            "item": "mbm:bunker_wall_block"
+        },
+        
+        "C":
+        {
+            "item": "mbm:hardened_rod"
+        }
+        
+      },
+    "result":
+    {
+        "item": "mbm:bunker_fence",
+        "count": 3
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "variants": {
+        
+        "facing=north": { "model": "mbm:force_field_wall" },
+        "facing=south": { "model": "mbm:force_field_wall", "y": 180 },
+        "facing=west": { "model": "mbm:force_field_wall", "y": 270 },
+        "facing=east": { "model": "mbm:force_field_wall", "y": 90 }
+    }
+}

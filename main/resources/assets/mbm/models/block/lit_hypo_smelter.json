@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": 
+    {
+        "up": "mbm:blocks/hs_top",
+        "down": "mbm:blocks/hs_bottom",
+        "north": "mbm:blocks/hs_on",
+        "east": "mbm:blocks/hs_right",
+        "south": "mbm:blocks/hs_back",
+        "west": "mbm:blocks/hs_left"
+    }
+}

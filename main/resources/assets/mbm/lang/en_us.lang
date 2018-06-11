@@ -1,0 +1,278 @@
+
+//Containers
+container.hypo_smelter=Hypo Smelter
+container.ultimum_charger=Ultium Charger
+
+//Tools
+item.ultimum_sword.name=Ultium Sword
+item.crono_ultimum_sword.name=Crono Ultium Sword
+item.infernium_ultimum_sword.name=Infernium Ultium Sword
+item.crono_infernium_ultimum_sword.name=Crono Infernium Ultium Sword
+
+
+item.ultimum_bow.name=Ultium Bow
+item.ultimum_spade.name=Ultium Shovel
+item.ultimum_axe.name=Ultium Axe
+
+item.ultimum_pickaxe.name=Ultium Pickaxe
+item.crono_ultimum_pickaxe.name=Crono Ultium Pickaxe
+item.infernium_ultimum_pickaxe.name=Infernium Ultium Pickaxe
+item.crono_infernium_ultimum_pickaxe.name=Crono Infernium Ultium Pickaxe
+
+item.ultimum_hoe.name=Ultium Hoe
+item.hardened_rod.name=Hardened Rod
+//Armor
+item.ultimum_exo_helmet.name=Ultium Exo Helmet
+item.ultimum_exo_chestplate.name=Ultium Exo Chestplate
+item.ultimum_exo_leggings.name=Ultium Exo Leggings
+item.ultimum_exo_boots.name=Ultium Exo Boots
+
+
+//Items
+item.cut_stone.name=CutStone
+item.chisel.name=Chisel
+item.hammer.name=Hammer
+item.mortar.name=Mortar
+item.crucible.name=Crucible
+item.ultimum_nugget.name=Ultium Nugget
+item.ultimum_ingot.name=Ultium Ingot
+item.crono_crystal.name=Crono Crystal
+item.infernium_shard.name=Infernium Shard
+item.infernium_core.name=Infernium Core
+
+
+//Blocks
+tile.mosaic_block.name=Mosaic Block
+tile.mosaic_block_red.name=Red Mosaic Block
+tile.mosaic_block_orannge.name=Orange Mosaic Block
+tile.mosaic_block_yellow.name=Yellow Mosaic Block
+tile.mosaic_block_green.name=Green Mosaic Block
+tile.mosaic_block_lime.name=Lime Mosaic Block
+tile.mosaic_block_blue.name=Blue Mosaic Block
+tile.mosaic_block_lblue.name=Light Blue Mosaic Block
+tile.mosaic_block_cyan.name=Cyan Mosaic Block
+tile.mosaic_block_purple.name=Purple Mosaic Block
+tile.mosaic_block_magenta.name=Magenta Mosaic Block
+tile.mosaic_block_pink.name=Pink Mosaic Block
+tile.mosaic_block_brown.name=Brown Mosaic Block
+tile.mosaic_block_lgray.name=Light Gray Mosaic Block
+tile.mosaic_block_gray.name=Gray Mosaic Block
+tile.mosaic_block_black.name=Black Mosaic Block
+tile.mosaic_block_white.name=White Mosaic Block
+
+
+tile.bunker_wall_block.name=Bunker Wall Block
+tile.bunker_wall_block_red.name=Red Bunker Wall Block
+tile.bunker_wall_block_orannge.name=Orange Bunker Wall Block
+tile.bunker_wall_block_yellow.name=Yellow Bunker Wall Block
+tile.bunker_wall_block_green.name=Green Bunker Wall Block
+tile.bunker_wall_block_lime.name=Lime Bunker Wall Block
+tile.bunker_wall_block_blue.name=Blue Bunker Wall Block
+tile.bunker_wall_block_lblue.name=Light Blue Bunker Wall Block
+tile.bunker_wall_block_cyan.name=Cyan Bunker Wall Block
+tile.bunker_wall_block_purple.name=Purple Bunker Wall Block
+tile.bunker_wall_block_magenta.name=Magenta Bunker Wall Block
+tile.bunker_wall_block_pink.name=Pink Bunker Wall Block
+tile.bunker_wall_block_brown.name=Brown Bunker Wall Block
+tile.bunker_wall_block_lgray.name=Light Gray Bunker Wall Block
+tile.bunker_wall_block_gray.name=Gray Bunker Wall Block
+tile.bunker_wall_block_black.name=Black Bunker Wall Block
+tile.bunker_wall_block_white.name=White Bunker Wall Block
+
+
+
+tile.bunker_trim_base_block.name=Bunker Base Trim
+tile.bunker_trim_base_block_red.name=Red Bunker Trim Base Block
+tile.bunker_trim_base_block_orannge.name=Orange Bunker Trim Base Block
+tile.bunker_trim_base_block_yellow.name=Yellow Bunker Trim Base Block
+tile.bunker_trim_base_block_green.name=Green Bunker Trim Base Block
+tile.bunker_trim_base_block_lime.name=Lime Bunker Trim Base Block
+tile.bunker_trim_base_block_blue.name=Blue Bunker Trim Base Block
+tile.bunker_trim_base_block_lblue.name=Light Blue Bunker Trim Base Block
+tile.bunker_trim_base_block_cyan.name=Cyan Bunker Trim Base Block
+tile.bunker_trim_base_block_purple.name=Purple Bunker Trim Base Block
+tile.bunker_trim_base_block_magenta.name=Magenta Bunker Trim Base Block
+tile.bunker_trim_base_block_pink.name=Pink Bunker Trim Base Block
+tile.bunker_trim_base_block_brown.name=Brown Bunker Trim Base Block
+tile.bunker_trim_base_block_lgray.name=Light Gray Bunker Trim Base Block
+tile.bunker_trim_base_block_gray.name=Gray Bunker Trim Base Block
+tile.bunker_trim_base_block_black.name=Black Bunker Trim Base Block
+tile.bunker_trim_base_block_white.name=White Bunker Trim Base Block
+
+
+
+
+tile.bunker_trim_crown_block.name=Bunker Crown Trim
+tile.bunker_trim_crown_block_red.name=Red Bunker Trim Crown Block
+tile.bunker_trim_crown_block_orannge.name=Orange Bunker Trim Crown Block
+tile.bunker_trim_crown_block_yellow.name=Yellow Bunker Trim Crown Block
+tile.bunker_trim_crown_block_green.name=Green Bunker Trim Crown Block
+tile.bunker_trim_crown_block_lime.name=Lime Bunker Trim Crown Block
+tile.bunker_trim_crown_block_blue.name=Blue Bunker Trim Crown Block
+tile.bunker_trim_crown_block_lblue.name=Light Blue Bunker Trim Crown Block
+tile.bunker_trim_crown_block_cyan.name=Cyan Bunker Trim Crown Block
+tile.bunker_trim_crown_block_purple.name=Purple Bunker Trim Crown Block
+tile.bunker_trim_crown_block_magenta.name=Magenta Bunker Trim Crown Block
+tile.bunker_trim_crown_block_pink.name=Pink Bunker Trim Crown Block
+tile.bunker_trim_crown_block_brown.name=Brown Bunker Trim Crown Block
+tile.bunker_trim_crown_block_lgray.name=Light Gray Bunker Trim Crown Block
+tile.bunker_trim_crown_block_gray.name=Gray Bunker Trim Crown Block
+tile.bunker_trim_crown_block_black.name=Black Bunker Trim Crown Block
+tile.bunker_trim_crown_block_white.name=White Bunker Trim Crown Block
+
+
+tile.bunker_grate_floor_block.name=Bunker Grate Floor
+tile.bunker_grate_floor_block_red.name=Red Bunker Grate Floor
+tile.bunker_grate_floor_block_orannge.name=Orange Bunker Grate Floor
+tile.bunker_grate_floor_block_yellow.name=Yellow Bunker Grate Floor
+tile.bunker_grate_floor_block_green.name=Green Bunker Grate Floor
+tile.bunker_grate_floor_block_lime.name=Lime Bunker Grate Floor
+tile.bunker_grate_floor_block_blue.name=Blue Bunker Grate Floor
+tile.bunker_grate_floor_block_lblue.name=Light Blue Bunker Grate Floor
+tile.bunker_grate_floor_block_cyan.name=Cyan Bunker Grate Floor
+tile.bunker_grate_floor_block_purple.name=Purple Bunker Grate Floor
+tile.bunker_grate_floor_block_magenta.name=Magenta Bunker Grate Floor
+tile.bunker_grate_floor_block_pink.name=Pink Bunker Grate Floor
+tile.bunker_grate_floor_block_brown.name=Brown Bunker Grate Floor
+tile.bunker_grate_floor_block_lgray.name=Light Gray Bunker Grate Floor
+tile.bunker_grate_floor_block_gray.name=Gray Bunker Grate Floor
+tile.bunker_grate_floor_block_black.name=Black Bunker Grate Floor
+tile.bunker_grate_floor_block_white.name=White Bunker Grate Floor
+
+
+tile.ultimum_block.name=Block of Ultium
+tile.bunker_glass_pillar_block.name=Bunker Glass Pillar
+
+//Special Blocks
+tile.cat_walk_block.name=Catwalk
+
+tile.round_log.name=Stockade
+tile.round_log_top.name=Stockade Top
+
+tile.steel_ladder.name=Steel Ladder
+tile.bunker_ladder.name=Bunker Ladder
+
+tile.barbed_wire.name=Barbed Wire
+
+tile.jump_pad_angle.name=Gravity Pad Slant T1
+tile.jump_pad_angle_t2.name=Gravity Pad Slant T2
+tile.jump_pad_angle_t3.name=Gravity Pad Slant T3
+
+tile.jump_pad.name=Gravity Pad T1
+tile.jump_pad_t2.name=Gravity Pad T2
+tile.jump_pad_t3.name=Gravity Pad T3
+
+tile.landing_pad.name=Landing Pad
+tile.force_field.name=Force Field
+
+tile.ultimum_torch.name=Ultium Torch
+
+
+//Ore
+tile.hardened_impurities_block.name=Hardened Impurities
+tile.ultimum_ore_block.name=Ultimum Ore
+tile.crono_crystal_formation.name=Crono Crystal Formation
+tile.infernium_ore.name=Infernium Ore
+tile.unstable_matter.name=Unstable Matter
+tile.unknown_matter.name=???
+
+
+
+
+//Fence
+tile.bunker_fence.name=Bunker Fence
+tile.bunker_wall.name=Bunker Wall
+
+
+
+
+//Doors
+tile.bunker_door.name=Bunker Door
+
+//Stairs
+tile.bunker_stairs.name=Bunker Stairs
+tile.bunker_grate_stairs.name=Bunker Grate Stairs
+
+//Glass
+tile.bunker_glass_block.name=Bunker Glass Block
+
+tile.bunker_glass_port_block.name=Bunker Glass Port
+tile.bunker_glass_port_block_red.name=Red Bunker Glass Port
+tile.bunker_glass_port_block_orange.name=Orange Bunker Glass Port
+tile.bunker_glass_port_block_yellow.name=Yellow Bunker Glass Port
+tile.bunker_glass_port_block_lime.name=Lime Bunker Glass Port
+tile.bunker_glass_port_block_green.name=Green Bunker Glass Port
+tile.bunker_glass_port_block_cyan.name=Cyan Bunker Glass Port
+tile.bunker_glass_port_block_lblue.name=Light Blue Bunker Glass Port
+tile.bunker_glass_port_block_blue.name=Blue Bunker Glass Port
+tile.bunker_glass_port_block_purple.name=Purple Bunker Glass Port
+tile.bunker_glass_port_block_magenta.name=Magenta Bunker Glass Port
+tile.bunker_glass_port_block_pink.name=Pink Bunker Glass Port
+tile.bunker_glass_port_block_brown.name=Brown Bunker Glass Port
+tile.bunker_glass_port_block_lgray.name=Light Gray Bunker Glass Port
+tile.bunker_glass_port_block_black.name=Black Bunker Glass Port
+tile.bunker_glass_port_block_white.name=White Bunker Glass Port
+
+
+tile.bunker_steel_shutter.name=Steel Shutter
+
+
+
+//Lights
+tile.bunker_light_vert_block.name= Vertical Bunker Light
+tile.bunker_light_vert_block_red.name=Red Vertical Bunker Light
+tile.bunker_light_vert_block_orange.name=Orange Vertical Bunker Light
+tile.bunker_light_vert_block_yellow.name=Yellow Vertical Bunker Light
+tile.bunker_light_vert_block_lime.name=Lime Vertical Bunker Light
+tile.bunker_light_vert_block_green.name=Green Vertical Bunker Light
+tile.bunker_light_vert_block_cyan.name=Cyan Vertical Bunker Light
+tile.bunker_light_vert_block_lblue.name=Light Blue Vertical Bunker Light
+tile.bunker_light_vert_block_blue.name=Blue Vertical Bunker Light
+tile.bunker_light_vert_block_purple.name=Purple Vertical Bunker Light
+tile.bunker_light_vert_block_magenta.name=Magenta Vertical Bunker Light
+tile.bunker_light_vert_block_pink.name=Pink Vertical Bunker Light
+tile.bunker_light_vert_block_brown.name=Brown Vertical Bunker Light
+tile.bunker_light_vert_block_lgray.name=Light Gray Vertical Bunker Light
+tile.bunker_light_vert_block_black.name=Black Vertical Bunker Light
+tile.bunker_light_vert_block_white.name=White Vertical Bunker Light
+
+
+tile.bunker_light_horz_block.name= Horizontal Bunker Light
+tile.bunker_light_horz_block.name= Horizontal Bunker Light
+tile.bunker_light_horz_block_red.name=Red Horizontal Bunker Light
+tile.bunker_light_horz_block_orange.name=Orange Horizontal Bunker Light
+tile.bunker_light_horz_block_yellow.name=Yellow Horizontal Bunker Light
+tile.bunker_light_horz_block_lime.name=Lime Horizontal Bunker Light
+tile.bunker_light_horz_block_green.name=Green Horizontal Bunker Light
+tile.bunker_light_horz_block_cyan.name=Cyan Horizontal Bunker Light
+tile.bunker_light_horz_block_lblue.name=Light Blue Horizontal Bunker Light
+tile.bunker_light_horz_block_blue.name=Blue Horizontal Bunker Light
+tile.bunker_light_horz_block_purple.name=Purple Horizontal Bunker Light
+tile.bunker_light_horz_block_magenta.name=Magenta Horizontal Bunker Light
+tile.bunker_light_horz_block_pink.name=Pink Horizontal Bunker Light
+tile.bunker_light_horz_block_brown.name=Brown Horizontal Bunker Light
+tile.bunker_light_horz_block_lgray.name=Light Gray Horizontal Bunker Light
+tile.bunker_light_horz_block_black.name=Black Horizontal Bunker Light
+tile.bunker_light_horz_block_white.name=White Horizontal Bunker Light
+
+
+tile.solar_light.name=Solar Light
+
+
+//Machines
+tile.hypo_smelter.name=Hypo-Smelter
+tile.ultimum_charger.name=Ultium Charger
+
+tile.xray_device.name=Xray Device
+tile.xray_device_on.name=Xray Device
+
+tile.nano_wall_base.name=Nano Wall Base
+tile.nano_wall.name_crown=Nano Wall Crown
+tile.nano_wall.name=Nano Wall
+
+
+
+//Tabs
+itemGroup.bunkerblockstab=Bunker Blocks
+itemGroup.bunkeritemstab=Bunker Items
+itemGroup.bunkerdecortab=Bunker Decorations

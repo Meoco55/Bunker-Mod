@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "  B",
+        " BA"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:jump_pad_t3"
+        },
+        
+        "A":
+        {
+            "item": "mbm:bunker_wall_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:jump_pad_angle_t3",
+        "count": 1
+    }
+}

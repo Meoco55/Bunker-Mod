@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "GGG",  
+        "GBG",
+        "AAA"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:ultimum_block"
+        },
+        "G":
+        {
+            "item": "minecraft:Glass"
+        },
+        "A":
+        {
+            "item": "mbm:bunker_wall_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:jump_pad",
+        "count": 2
+    }
+}

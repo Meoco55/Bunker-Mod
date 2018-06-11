@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "mbm:blocks/bunkertrim1top",
+        "side": "mbm:blocks/bunkerglasspillar"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "GGG",  
+        "GBG",
+        "GAG"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:crono_crystal"
+        },
+        "G":
+        {
+            "item": "minecraft:Glass"
+        },
+        "A":
+        {
+            "item": "mbm:jump_pad"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:jump_pad_t2",
+        "count": 1
+    }
+}

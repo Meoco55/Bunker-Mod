@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:bunker_trim_crown_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:bunker_grate_floor_block",
+        "count": 1
+    }
+}

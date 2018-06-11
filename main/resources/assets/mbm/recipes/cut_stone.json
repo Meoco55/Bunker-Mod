@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "H",
+        "C",
+        "S"
+    ],
+    
+    "key":
+    {
+        "H":
+        {
+            "item": "mbm:hammer"
+        },
+        
+        "C":
+        {
+            "item": "mbm:chisel"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:cobblestone"
+        }
+      },
+    "result":
+    {
+        "item": "mbm:cut_stone",
+        "count": 8
+    }
+}

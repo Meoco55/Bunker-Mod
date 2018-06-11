@@ -1,0 +1,8 @@
+{
+    "variants": {
+        
+        "axis=y": { "model": "mbm:barbed_wire" },
+        "axis=z": { "model": "mbm:barbed_wire", "x": 90 },
+        "axis=x": { "model": "mbm:barbed_wire", "x": 90, "y": 90 }
+    }
+}

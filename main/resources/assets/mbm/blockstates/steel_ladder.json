@@ -1,0 +1,10 @@
+{
+    "variants": 
+    {
+        "facing=north": { "model": "mbm:steel_ladder" },
+        "facing=east": { "model": "mbm:steel_ladder", "y": 90 },
+        "facing=south": { "model": "mbm:steel_ladder", "y": 180 },
+        "facing=west": { "model": "mbm:steel_ladder", "y": 270 }
+        
+    }
+}

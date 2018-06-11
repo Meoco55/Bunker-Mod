@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "nnn",
+        "nnn",
+        "nnn"
+    ],
+    
+    "key":
+    {
+        
+        
+        "n":
+        {
+            "item": "mbm:ultimum_nugget"
+        }
+      },
+    "result":
+    {
+        "item": "mbm:ultimum_ingot",
+        "count": 1
+    }
+}

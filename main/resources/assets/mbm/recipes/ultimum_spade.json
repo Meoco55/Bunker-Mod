@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " i ",
+        " s ",
+        " s "
+    ],
+    
+    "key":
+    {
+        
+        
+        "i":
+        {
+            "item": "mbm:ultimum_ingot"
+        },
+        
+        "s":
+        {
+            "item": "minecraft:stick"
+        }
+        
+        
+      },
+    "result":
+    {
+        "item": "mbm:ultimum_spade",
+        "count": 1
+    }
+}

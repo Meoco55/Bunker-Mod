@@ -1,0 +1,13 @@
+{
+    "variants": 
+    {
+        "burning=false,facing=north": { "model": "mbm:ultimum_charger" },
+        "burning=false,facing=east": { "model": "mbm:ultimum_charger", "y": 90 },
+        "burning=false,facing=south": { "model": "mbm:ultimum_charger", "y": 180 },
+        "burning=false,facing=west": { "model": "mbm:ultimum_charger", "y": 270 },
+        "burning=true,facing=north": { "model": "mbm:ultimum_charger_on" },
+        "burning=true,facing=east": { "model": "mbm:ultimum_charger_on", "y": 90 },
+        "burning=true,facing=south": { "model": "mbm:ultimum_charger_on", "y": 180 },
+        "burning=true,facing=west": { "model": "mbm:ultimum_charger_on", "y":270  }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "blocks.jumppad.ambient":
+    {
+        "catagory": "blocks",
+        "subtitle": "blocks_jumppad_ambient",
+        "sounds": [{ "name": "mbm:blocks/jumppad/jumppad_ambient2", "stream": true}]
+     },
+     
+     "blocks.jumppad.woosh":
+    {
+        "catagory": "blocks",
+        "subtitle": "blocks_jumppad_woosh",
+        "sounds": [{ "name": "mbm:blocks/jumppad/jumppad_woosh3", "stream": true}]
+     },
+     
+     "blocks.forcefield.hum":
+    {
+        "catagory": "blocks",
+        "subtitle": "blocks_forcefield_hum",
+        "sounds": [{ "name": "mbm:blocks/forcefield/force_field", "stream": true}]
+     },
+     
+     "blocks.crono.ambient":
+    {
+        "catagory": "blocks",
+        "subtitle": "blocks_crono_ambient",
+        "sounds": [{ "name": "mbm:blocks/crono/ambient", "stream": true}]
+     }
+}        

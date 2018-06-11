@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "mbm:bunker_trim_base_block" }
+    }
+}

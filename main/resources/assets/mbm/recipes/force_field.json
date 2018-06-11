@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "GGG",  
+        "GBG",
+        "GGG"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:bunker_glass_pane"
+        },
+        "G":
+        {
+            "item": "mbm:unknown_matter"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:force_field",
+        "count": 8
+    }
+}

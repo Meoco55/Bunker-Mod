@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B B",
+        "BBB",
+        "B B"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:Iron_Ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:steel_ladder",
+        "count": 4
+    }
+}

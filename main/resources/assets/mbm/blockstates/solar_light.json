@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=up": { "model": "mbm:solar_light" },
+        "facing=west": { "model": "mbm:solar_light_wall" },
+        "facing=north": { "model": "mbm:solar_light_wall", "y": 90 },
+        "facing=east": { "model": "mbm:solar_light_wall", "y": 180 },
+        "facing=south": { "model": "mbm:solar_light_wall", "y": 270 },
+        "facing=down": { "model": "mbm:solar_light", "x": 180}
+    }
+}

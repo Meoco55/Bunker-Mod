@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:bunker_glass_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:bunker_glass_port_block",
+        "count": 1
+    }
+}

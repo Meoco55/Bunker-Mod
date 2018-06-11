@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "BAB",
+        "AAA"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:Iron_Bars"
+        },
+        "A":
+        {
+            "item": "mbm:bunker_fence"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:barbed_wire",
+        "count": 1
+    }
+}

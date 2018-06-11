@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    
+    "key":
+    {
+        
+        
+        "i":
+        {
+            "item": "mbm:ultimum_ingot"
+        }
+      },
+    "result":
+    {
+        "item": "mbm:ultimum_block",
+        "count": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+       "facing=up": { "model": "mbm:jump_pad_t2" },
+        "facing=west": { "model": "mbm:jump_pad_t2", "y": 270, "x": 90 },
+        "facing=north": { "model": "mbm:jump_pad_t2", "x": 90},
+        "facing=east": { "model": "mbm:jump_pad_t2", "y": 90, "x": 90 },
+        "facing=south": { "model": "mbm:jump_pad_t2", "y": 180, "x": 90 },
+        "facing=down": { "model": "mbm:jump_pad_t2", "x": 180}
+    }
+}

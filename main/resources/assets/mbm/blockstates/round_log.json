@@ -1,0 +1,8 @@
+{
+    "variants": {
+        
+        "axis=y": { "model": "mbm:round_log" },
+        "axis=z": { "model": "mbm:round_log", "x": 90 },
+        "axis=x": { "model": "mbm:round_log", "x": 90, "y": 90 }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": 
+    {
+        "up": "mbm:blocks/bunkertrim1topbrown",
+        "down": "mbm:blocks/bunkertrim1topbrown",
+        "north": "mbm:blocks/bunker_glass_port_brown",
+        "east": "mbm:blocks/bunker_glass_port_brown",
+        "south": "mbm:blocks/bunker_glass_port_brown",
+        "west": "mbm:blocks/bunker_glass_port_brown"
+    }
+}

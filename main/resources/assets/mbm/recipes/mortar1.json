@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B",
+        "C"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:SAND"
+        },
+        "C":
+        {
+            "item": "minecraft:Gravel"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:mortar",
+        "count": 8
+    }
+}

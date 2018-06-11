@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " i ",
+        " i ",
+        " s "
+    ],
+    
+    "key":
+    {
+        
+        
+        "i":
+        {
+            "item": "mbm:infernium_shard"
+        },
+        
+        "s":
+        {
+            "item": "mbm:ultimum_sword"
+        }
+        
+        
+      },
+    "result":
+    {
+        "item": "mbm:infernium_ultimum_sword",
+        "count": 1
+    }
+}

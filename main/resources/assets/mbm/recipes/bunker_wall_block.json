@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:bunker_glass_pillar_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:bunker_wall_block",
+        "count": 2
+    }
+}

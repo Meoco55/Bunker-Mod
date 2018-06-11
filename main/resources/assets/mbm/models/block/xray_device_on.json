@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": 
+    {
+        "up": "mbm:blocks/xrayside",
+        "down": "mbm:blocks/xrayside",
+        "north": "mbm:blocks/xrayon",
+        "east": "mbm:blocks/xrayside",
+        "south": "mbm:blocks/xrayside",
+        "west": "mbm:blocks/xrayside"
+    }
+}

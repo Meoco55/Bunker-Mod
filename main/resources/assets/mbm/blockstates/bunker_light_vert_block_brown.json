@@ -1,0 +1,10 @@
+{
+    "variants": 
+    {
+        "facing=north": { "model": "mbm:bunker_light_vert_block_brown" },
+        "facing=east": { "model": "mbm:bunker_light_vert_block_brown", "y": 90 },
+        "facing=south": { "model": "mbm:bunker_light_vert_block_brown", "y": 180 },
+        "facing=west": { "model": "mbm:bunker_light_vert_block_brown", "y": 270 }
+        
+    }
+}

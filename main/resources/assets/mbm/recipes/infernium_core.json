@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "GAG",  
+        "ABA",
+        "GAG"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:crono_crystal"
+        },
+        "G":
+        {
+            "item": "minecraft:Redstone"
+        },
+        "A":
+        {
+            "item": "mbm:infernium_shard"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:infernium_core",
+        "count": 1
+    }
+}

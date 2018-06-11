@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+        "bottom": "mbm:blocks/bunker_door_bottom",
+        "top": "mbm:blocks/bunker_door_top"
+    }
+}

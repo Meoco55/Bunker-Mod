@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " i ",
+        " i ",
+        " s "
+    ],
+    
+    "key":
+    {
+        
+        
+        "i":
+        {
+            "item": "mbm:crono_crystal"
+        },
+        
+        "s":
+        {
+            "item": "mbm:ultimum_sword"
+        }
+        
+        
+      },
+    "result":
+    {
+        "item": "mbm:crono_ultimum_sword",
+        "count": 1
+    }
+}

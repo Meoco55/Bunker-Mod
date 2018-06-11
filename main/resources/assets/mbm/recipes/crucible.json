@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B B",
+        "BBB"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:cut_stone"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:crucible",
+        "count": 1
+    }
+}

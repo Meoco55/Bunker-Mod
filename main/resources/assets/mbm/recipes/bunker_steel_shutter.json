@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+          
+        "B"
+              
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:Iron_Bars"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:bunker_steel_shutter",
+        "count": 1
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "mbm:bunker_wall_block"
+    },
+ 
+    {
+      "item": "minecraft:Glass"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "mbm:bunker_glass_block",
+        "count": 1
+    }
+}

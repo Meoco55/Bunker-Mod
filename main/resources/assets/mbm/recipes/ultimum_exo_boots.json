@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [  
+        "B B",
+        "A A"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:hardened_rod"
+        },       
+        "A":
+        {
+            "item": "mbm:ultimum_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:ultimum_exo_boots",
+        "count": 1
+    }
+}

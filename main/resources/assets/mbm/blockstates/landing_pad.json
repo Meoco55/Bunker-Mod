@@ -1,0 +1,10 @@
+{
+    "variants": {
+      "facing=up": { "model": "mbm:landing_pad" },
+        "facing=west": { "model": "mbm:landing_pad", "y": 270, "x": 90 },
+        "facing=north": { "model": "mbm:landing_pad", "x": 90},
+        "facing=east": { "model": "mbm:landing_pad", "y": 90, "x": 90 },
+        "facing=south": { "model": "mbm:landing_pad", "y": 180, "x": 90 },
+        "facing=down": { "model": "mbm:landing_pad", "x": 180}
+    }
+}

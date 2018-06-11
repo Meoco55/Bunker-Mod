@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B B",
+        "BBB",
+        "B B"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:bunker_wall_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:bunker_ladder",
+        "count": 4
+    }
+}

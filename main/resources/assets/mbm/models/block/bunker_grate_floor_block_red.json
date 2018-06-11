@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": 
+    {
+        "up": "mbm:blocks/grate_floor",
+        "down": "mbm:blocks/bunkertrim1topred",
+        "north": "mbm:blocks/bunkertrim1sidered",
+        "east": "mbm:blocks/bunkertrim1sidered",
+        "south": "mbm:blocks/bunkertrim1sidered",
+        "west": "mbm:blocks/bunkertrim1sidered"
+    }
+}

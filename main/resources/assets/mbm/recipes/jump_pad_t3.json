@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "GGG",  
+        "GBG",
+        "GAG"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:infernium_shard"
+        },
+        "G":
+        {
+            "item": "minecraft:Glass"
+        },
+        "A":
+        {
+            "item": "mbm:jump_pad_t2"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:jump_pad_t3",
+        "count": 1
+    }
+}
