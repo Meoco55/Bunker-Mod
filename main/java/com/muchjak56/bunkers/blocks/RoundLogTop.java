@@ -33,6 +33,7 @@ public class RoundLogTop extends TorchType
     }
 	@Override
 	 protected boolean checkForDrop(World worldIn, BlockPos pos, IBlockState state)
+<<<<<<< HEAD
     {
 		return true;
     }
@@ -41,4 +42,14 @@ public class RoundLogTop extends TorchType
     {
 		return true;
     }
+=======
+   {
+		return true;
+   }
+	@Override
+	protected boolean onNeighborChangeInternal(World worldIn, BlockPos pos, IBlockState state)
+   {
+		return true;
+   }
+>>>>>>> muchjak56
 }
