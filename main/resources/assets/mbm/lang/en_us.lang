@@ -191,7 +191,24 @@ tile.bunker_door.name=Bunker Door
 
 //Stairs
 tile.bunker_stairs.name=Bunker Stairs
+
 tile.bunker_grate_stairs.name=Bunker Grate Stairs
+tile.bunker_grate_stairs_red.name=Red Bunker Grate Stairs
+tile.bunker_grate_stairs_orange.name=Orange Bunker Grate Stairs
+tile.bunker_grate_stairs_yellow.name=Yellow Bunker Grate Stairs
+tile.bunker_grate_stairs_green.name=Green Bunker Grate Stairs
+tile.bunker_grate_stairs_lime.name=Lime Bunker Grate Stairs
+tile.bunker_grate_stairs_blue.name=Blue Bunker Grate Stairs
+tile.bunker_grate_stairs_lblue.name=Light Blue Bunker Grate Stairs
+tile.bunker_grate_stairs_cyan.name=Cyan Bunker Grate Stairs
+tile.bunker_grate_stairs_purple.name=Purple Bunker Grate Stairs
+tile.bunker_grate_stairs_magenta.name=Magenta Bunker Grate Stairs
+tile.bunker_grate_stairs_pink.name=Pink Bunker Grate Stairs
+tile.bunker_grate_stairs_brown.name=Brown Bunker Grate Stairs
+tile.bunker_grate_stairs_lgray.name=Light Gray Bunker Grate Stairs
+tile.bunker_grate_stairs_gray.name=Gray Bunker Grate Stairs
+tile.bunker_grate_stairs_black.name=Black Bunker Grate Stairs
+tile.bunker_grate_stairs_white.name=White Bunker Grate Stairs
 
 //Glass
 tile.bunker_glass_block.name=Bunker Glass Block

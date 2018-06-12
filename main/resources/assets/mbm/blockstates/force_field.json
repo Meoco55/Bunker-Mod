@@ -1,9 +1,10 @@
 {
     "variants": {
-        
-        "facing=north": { "model": "mbm:force_field_wall" },
-        "facing=south": { "model": "mbm:force_field_wall", "y": 180 },
-        "facing=west": { "model": "mbm:force_field_wall", "y": 270 },
-        "facing=east": { "model": "mbm:force_field_wall", "y": 90 }
+      "facing=up": { "model": "mbm:force_field" },
+        "facing=west": { "model": "mbm:force_field", "y": 270, "x": 90 },
+        "facing=north": { "model": "mbm:force_field", "x": 90},
+        "facing=east": { "model": "mbm:force_field", "y": 90, "x": 90 },
+        "facing=south": { "model": "mbm:force_field", "y": 180, "x": 90 },
+        "facing=down": { "model": "mbm:force_field", "x": 180}
     }
 }

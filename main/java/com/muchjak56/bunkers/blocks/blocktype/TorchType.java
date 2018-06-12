@@ -52,9 +52,6 @@ public class TorchType extends Block implements IHasModel
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
-	public boolean canPlaceUpsideDown() {
-		return true;
-	}
     public boolean isOpaqueCube(IBlockState state)
     {
         return false;
@@ -74,10 +71,6 @@ public class TorchType extends Block implements IHasModel
         {
             if (this.canPlaceAt(worldIn, pos, enumfacing))
             {
-            	if(enumfacing == EnumFacing.DOWN && !canPlaceUpsideDown()) {
-            		return false;
-            	}
-            	
                 return true;
             }
         }
@@ -309,5 +302,8 @@ public class TorchType extends Block implements IHasModel
 		default:
 		return Up;
 		}
-	}	
+	}
+	
+	
+	
 }
