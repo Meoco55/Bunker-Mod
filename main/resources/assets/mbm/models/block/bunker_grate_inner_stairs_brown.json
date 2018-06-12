@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "mbm:blocks/bunkerwall1brown",
+        "top": "mbm:blocks/grate_floor",
+        "side": "mbm:blocks/bunkertrim1sidebrown"
+    }
+}

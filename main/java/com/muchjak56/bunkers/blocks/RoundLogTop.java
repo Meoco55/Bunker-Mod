@@ -10,6 +10,7 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
 
 public class RoundLogTop extends TorchType
 {
@@ -30,4 +31,14 @@ public class RoundLogTop extends TorchType
     {
 		return generateFlatAABB(new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 1.0D, 1.0D), state.getValue(FACING));
     }
+	@Override
+	 protected boolean checkForDrop(World worldIn, BlockPos pos, IBlockState state)
+   {
+		return true;
+   }
+	@Override
+	protected boolean onNeighborChangeInternal(World worldIn, BlockPos pos, IBlockState state)
+   {
+		return true;
+   }
 }
