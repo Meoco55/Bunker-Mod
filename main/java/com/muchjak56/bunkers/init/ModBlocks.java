@@ -199,6 +199,21 @@ public class ModBlocks
 	
 	//Stairs
 	public static final Block BUNKER_STAIRS = new StairType("bunker_stairs", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState());
+	public static final Block BUNKER_STAIRS_RED = new StairType("bunker_stairs_red", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_ORANGE = new StairType("bunker_stairs_orange", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_YELLOW = new StairType("bunker_stairs_yellow", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_LIME = new StairType("bunker_stairs_lime", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_GREEN = new StairType("bunker_stairs_green", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_CYAN = new StairType("bunker_stairs_cyan", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_LBLUE = new StairType("bunker_stairs_lblue", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_BLUE = new StairType("bunker_stairs_blue", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_PURPLE = new StairType("bunker_stairs_purple", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_MAGENTA = new StairType("bunker_stairs_magenta", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_PINK = new StairType("bunker_stairs_pink", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_BROWN = new StairType("bunker_stairs_brown", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_LGRAY = new StairType("bunker_stairs_lgray", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_BLACK = new StairType("bunker_stairs_black", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
+	public static final Block BUNKER_STAIRS_WHITE = new StairType("bunker_stairs_white", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
 	
 	public static final Block BUNKER_GRATE_STAIRS = new StairType("bunker_grate_stairs", Material.IRON, BUNKER_TRIM_BASE_BLOCK.getDefaultState());
 	public static final Block BUNKER_GRATE_STAIRS_RED = new StairType("bunker_grate_stairs_red", Material.IRON, BUNKER_TRIM_BASE_BLOCK_RED.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);

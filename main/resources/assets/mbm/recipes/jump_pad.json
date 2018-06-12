@@ -12,11 +12,11 @@
     {
         "B":
         {
-            "item": "mbm:ultimum_block"
+            "item": "mbm:ultimum_ingot"
         },
         "G":
         {
-            "item": "minecraft:Glass"
+            "item": "mbm:bunker_glass_block"
         },
         "A":
         {

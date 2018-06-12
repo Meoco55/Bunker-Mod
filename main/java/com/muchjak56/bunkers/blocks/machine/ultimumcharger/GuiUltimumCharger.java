@@ -42,7 +42,7 @@ public class GuiUltimumCharger extends GuiContainer
 		}
 		
 		int l = this.getCookProgressScaled(24);
-		this.drawTexturedModalRect(this.guiLeft + 91, this.guiTop + 40, 180, 20, l + 1, 4);
+		this.drawTexturedModalRect(this.guiLeft + 91, this.guiTop + 41, 177, 19, l + 1, 4);
 	}
 	
 	private int getBurnLeftScaled(int pixels)

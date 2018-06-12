@@ -31,7 +31,8 @@ public class UltimumChargerRecipes
 	private UltimumChargerRecipes() 
 	{
 		addUltimumRecipe(new ItemStack(ModItems.CUT_STONE), new ItemStack(ModItems.MORTAR), new ItemStack(ModBlocks.MOSAIC_BLOCK), 5.0F);
-		
+		addUltimumRecipe(new ItemStack(ModItems.CRONO_ULTIMUM_PICKAXE), new ItemStack(ModItems.INFERNIUM_ULTIMUM_PICKAXE), new ItemStack(ModItems.CRONO_INFERNIUM_ULTIMUM_PICKAXE), 5.0F);
+		addUltimumRecipe(new ItemStack(ModItems.CRONO_ULTIMUM_SWORD), new ItemStack(ModItems.INFERNIUM_ULTIMUM_SWORD), new ItemStack(ModItems.CRONO_INFERNIUM_ULTIMUM_SWORD), 5.0F);
 		
 	}
 

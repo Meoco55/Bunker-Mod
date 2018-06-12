@@ -29,7 +29,7 @@ public class ContainerUltimumCharger extends Container
 		//fuel slot
 		this.addSlotToContainer(new SlotUltimumChargerFuel(tileentity, 2, 62, 35));
 		//output slot
-		this.addSlotToContainer(new SlotUltimumChargerOutput(player.player, tileentity, 3, 135, 29));
+		this.addSlotToContainer(new SlotUltimumChargerOutput(player.player, tileentity, 3, 140, 34));
 	
 		//player inventory
 		for(int y = 0; y < 3; y++)

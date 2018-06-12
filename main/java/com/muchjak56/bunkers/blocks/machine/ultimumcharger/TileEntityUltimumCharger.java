@@ -263,8 +263,8 @@ public class TileEntityUltimumCharger extends TileEntity implements IInventory, 
 		else 
 		{
 			Item item = fuel.getItem();
-			if (item == Items.REDSTONE) return 100;
-			if (item == Item.getItemFromBlock(Blocks.REDSTONE_BLOCK)) return 100;
+			if (item == Items.REDSTONE) return 300;
+			if (item == Item.getItemFromBlock(Blocks.REDSTONE_BLOCK)) return 300;
 
 			return GameRegistry.getFuelValue(fuel);
 		}

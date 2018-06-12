@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "GGG",  
+        "GBG",
+        "AAA"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:ultimum_block"
+        },
+        "G":
+        {
+            "item": "mbm:bunker_glass_block"
+        },
+        "A":
+        {
+            "item": "mbm:bunker_wall_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:ultimum_charger",
+        "count": 1
+    }
+}

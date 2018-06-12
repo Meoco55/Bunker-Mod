@@ -43,6 +43,21 @@ public class BlockUltimumCharger extends BlockBase implements ITileEntityProvide
 		setSoundType(SoundType.METAL);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH).withProperty(BURNING, false));
 	}
+	public BlockRenderLayer getBlockLayer()
+    {
+        return BlockRenderLayer.CUTOUT;
+    }
+	
+	public boolean isOpaqueCube(IBlockState state)
+    {
+        return false;
+    }
+	public boolean isFullCube(IBlockState state)
+    {
+        return false;
+    }
+	
+	
 	@Override
 	 public Item getItemDropped(IBlockState state, Random rand, int fortune) {
 		return Item.getItemFromBlock(ModBlocks.ULTIMUM_CHARGER);
