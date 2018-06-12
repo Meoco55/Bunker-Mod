@@ -38,14 +38,7 @@ public class SolarLight extends TorchType
       return generateTorchAABB(new AxisAlignedBB(0.4D, 0.0D, 0.4D, 0.6D, 1.0D, 0.6D), new AxisAlignedBB(0.4D, 0.0D, 1.0D, 0.6D, 1.0D, 0.6D), null, state.getValue(FACING));
     }	
 	@Override
-<<<<<<< HEAD
 	public boolean canPlaceUpsideDown() {
 		return false;
 	}
-=======
-	 public void randomDisplayTick(IBlockState stateIn, World worldIn, BlockPos pos, Random rand)
-	    {
-		 return;
-	    }    
->>>>>>> muchjak56
 }
