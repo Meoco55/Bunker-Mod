@@ -310,4 +310,30 @@ public class TorchType extends Block implements IHasModel
 		return Up;
 		}
 	}	
+	public static AxisAlignedBB generateAllAABB(EnumFacing face, AxisAlignedBB up, AxisAlignedBB north,AxisAlignedBB down,AxisAlignedBB east,AxisAlignedBB west, AxisAlignedBB south) {
+		if(!(up == null) && north == null && down == null && east == null && west == null && south == null) {
+		return generateFlatAABB(up, face);
+		}
+		else if(!(up == null) && !(north == null)) {
+		switch(face) {		 
+		case EAST:
+			if(!(east == null)) {
+				return east;
+			}
+			return generateTorchAABB(up,north,down,face);
+		case WEST:
+			if(!(west == null)) {
+				return west;
+			}
+			return generateTorchAABB(up,north,down,face);
+		case SOUTH:
+			if(!(south == null)) {
+				return south;
+			}
+			return generateTorchAABB(up,north,down,face);
+		default: return generateTorchAABB(up,north,down,face);
+		}
+		}	
+		return new AxisAlignedBB(0,0,0,1,1,1);
+	}
 }
