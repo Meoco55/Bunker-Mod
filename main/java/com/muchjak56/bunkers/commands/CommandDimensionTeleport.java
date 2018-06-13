@@ -60,7 +60,7 @@ public class CommandDimensionTeleport extends CommandBase
 		
 		if(sender instanceof EntityPlayer)
 		{
-			if(dimensionID == 1 || dimensionID == 2)
+			if(dimensionID == 2 || dimensionID == 1)
 			{
 				Teleport.teleportToDimension((EntityPlayer)sender, dimensionID, 0, 55, 0);
 			}

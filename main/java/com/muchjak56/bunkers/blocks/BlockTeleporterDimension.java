@@ -61,7 +61,7 @@ public class BlockTeleporterDimension extends BlockBase
 	{
 		if(!worldIn.isRemote)
 		{
-			Teleport.teleportToDimension(playerIn, 2, playerIn.getPosition().getX(), playerIn.getPosition().getY() + 5, playerIn.getPosition().getZ());
+			Teleport.teleportToDimension(playerIn, 2, 0, 65, 0);
 			return true;
 		}
 		else

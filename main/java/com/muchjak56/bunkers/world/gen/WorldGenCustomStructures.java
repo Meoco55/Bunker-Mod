@@ -31,7 +31,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		{
 		case 2:
 			
-			generateStructure(TELEPORTER, world, random, chunkX, chunkZ, 1000, Blocks.STONE, BiomeBetweenWorld.class);
+			generateStructure(TELEPORTER, world, random, chunkX, chunkZ, 50, Blocks.STONE, BiomeBetweenWorld.class);
 			
 			break;
 			
@@ -58,7 +58,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		int x = (chunkX * 16) + random.nextInt(15) + 8;
 		int z = (chunkZ * 16) + random.nextInt(15) + 8;
 		int y = calculateGenerationHeight(world, x, z, topBlock);
-		BlockPos pos = new BlockPos(x,y + 1,z);
+		BlockPos pos = new BlockPos(x,y,z);
 		
 		Class<?> biome = world.provider.getBiomeForCoords(pos).getClass();
 		
@@ -81,7 +81,7 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		int x = (chunkX * 16) + random.nextInt(15) + 8;
 		int z = (chunkZ * 16) + random.nextInt(15) + 8;
 		int y = calculateGenerationHeight(world, x, z, topBlock);
-		BlockPos pos = new BlockPos(x,y + 1,z);
+		BlockPos pos = new BlockPos(x,y,z);
 		
 		Class<?> biome = world.provider.getBiomeForCoords(pos).getClass();
 		
