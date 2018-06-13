@@ -1,0 +1,6 @@
+{
+     "parent": "mbm:block/teleporter",
+    "textures": {
+        "0": "mbm:blocks/teleporter"
+    }
+    }

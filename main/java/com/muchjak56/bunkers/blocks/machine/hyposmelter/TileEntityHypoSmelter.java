@@ -9,6 +9,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.ItemStackHelper;
+import net.minecraft.inventory.SlotFurnaceFuel;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemHoe;
@@ -17,6 +18,7 @@ import net.minecraft.item.ItemSword;
 import net.minecraft.item.ItemTool;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ITickable;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.MathHelper;
@@ -30,8 +32,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class TileEntityHypoSmelter extends TileEntity implements IInventory, ITickable
 {
 	private NonNullList<ItemStack> inventory = NonNullList.<ItemStack>withSize(4, ItemStack.EMPTY);
-	private String customName;
-	
+	private String customName;	
 	private int burnTime;
 	private int currentBurnTime;
 	private int cookTime;
@@ -368,4 +369,5 @@ public class TileEntityHypoSmelter extends TileEntity implements IInventory, ITi
 	{
 		this.inventory.clear();
 	}
+	
 }

@@ -1,0 +1,10 @@
+{
+    "variants": 
+    {
+        "facing=south": { "model": "mbm:teleporter" },
+        "facing=west": { "model": "mbm:teleporter", "y": 90 },
+        "facing=north": { "model": "mbm:teleporter", "y": 180 },
+        "facing=east": { "model": "mbm:teleporter", "y": 270 }
+        
+    }
+}
