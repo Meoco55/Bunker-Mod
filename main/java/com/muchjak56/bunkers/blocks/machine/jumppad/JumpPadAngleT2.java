@@ -133,12 +133,7 @@ public class JumpPadAngleT2 extends BlockBase
     {
         return false;
     }
-	@Override
-	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitx, float hity, float hitz)
-	{
-		System.out.println(((EnumFacing)state.getValue(FACING)).getIndex());
-		return true;
-	}
+	
 	
 	 protected SoundEvent getSound()
 	    {

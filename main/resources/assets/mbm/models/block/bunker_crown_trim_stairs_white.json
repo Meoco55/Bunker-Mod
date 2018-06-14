@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "mbm:blocks/bunkerwall1white",
+        "top": "mbm:blocks/bunkerwall1white",
+        "side": "mbm:blocks/bunkertrim2sidewhite"
+    }
+}
