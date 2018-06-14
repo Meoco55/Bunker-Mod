@@ -56,7 +56,7 @@ public class ContainerUltimumCharger extends Container
 	@Override
 	public void detectAndSendChanges() 
 	{
-
+		super.detectAndSendChanges();
 		
 		for(int i = 0; i < this.listeners.size(); ++i) 
 		{

@@ -8,14 +8,16 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 public class SoundsHandler 
 {
-	public static SoundEvent BLOCKS_JUMPPAD_AMBIENT, BLOCKS_JUMPPAD_WOOSH, BLOCKS_FORCEFIELD_HUM, BLOCKS_CRONO_AMBIENT;
+	public static SoundEvent BLOCKS_JUMPPAD_AMBIENT, BLOCKS_JUMPPAD_WOOSH, BLOCKS_FORCEFIELD_HUM, BLOCKS_CRONO_AMBIENT, BLOCK_EXPLOSIVE_ARMED;
 	
 	public static void registerSounds()
 	{
 		BLOCKS_JUMPPAD_AMBIENT = registerSound("blocks.jumppad.ambient");
 		BLOCKS_JUMPPAD_WOOSH = registerSound("blocks.jumppad.woosh");
 		BLOCKS_FORCEFIELD_HUM = registerSound("blocks.forcefield.hum");
-		BLOCKS_CRONO_AMBIENT = registerSound("blocks.crono.ambient");
+		BLOCKS_CRONO_AMBIENT= registerSound("blocks.crono.ambient");
+		BLOCK_EXPLOSIVE_ARMED = registerSound("blocks.explosive.armed");
+
 	}
 	private static SoundEvent registerSound(String name)
 	{

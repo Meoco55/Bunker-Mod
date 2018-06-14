@@ -1,12 +1,14 @@
 package com.muchjak56.bunkers.util.handlers;
 
 import com.muchjak56.bunkers.Bunkers;
+import com.muchjak56.bunkers.commands.CommandDimensionTeleport;
 import com.muchjak56.bunkers.init.BiomeInit;
 import com.muchjak56.bunkers.init.DimensionInit;
 import com.muchjak56.bunkers.init.ModBlocks;
 import com.muchjak56.bunkers.init.ModItems;
 import com.muchjak56.bunkers.util.IHasModel;
 import com.muchjak56.bunkers.world.gen.WorldGenCustomOres;
+import com.muchjak56.bunkers.world.gen.WorldGenCustomStructures;
 
 import net.minecraft.block.Block;
 
@@ -59,6 +61,7 @@ public class RegistryHandler
 	public static void preInitRegistries()
 	{
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+		GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
 	
 		BiomeInit.registerBiomes();
 		DimensionInit.registerDimensions();
@@ -78,6 +81,6 @@ public class RegistryHandler
 	
 	public static void serverRegistries(FMLServerStartingEvent event)
 	{
-		
+		event.registerServerCommand(new CommandDimensionTeleport());
 	}
 }

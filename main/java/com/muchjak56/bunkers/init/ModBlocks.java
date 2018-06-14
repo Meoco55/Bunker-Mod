@@ -6,6 +6,8 @@ import java.util.List;
 import com.muchjak56.bunkers.Bunkers;
 import com.muchjak56.bunkers.blocks.BarbedWire;
 import com.muchjak56.bunkers.blocks.BlockBase;
+import com.muchjak56.bunkers.blocks.BlockTeleporterDimension;
+import com.muchjak56.bunkers.blocks.BlockTeleporterOverworld;
 import com.muchjak56.bunkers.blocks.BunkerGlassPane;
 import com.muchjak56.bunkers.blocks.BunkerGlassPillarBlock;
 import com.muchjak56.bunkers.blocks.BunkerLightBlock;
@@ -27,6 +29,7 @@ import com.muchjak56.bunkers.blocks.UnstableMatter;
 
 
 import com.muchjak56.bunkers.blocks.blocktype.DoorType;
+import com.muchjak56.bunkers.blocks.blocktype.ExplosiveType;
 import com.muchjak56.bunkers.blocks.blocktype.FenceType;
 import com.muchjak56.bunkers.blocks.blocktype.GlassType;
 import com.muchjak56.bunkers.blocks.blocktype.LadderType;
@@ -67,19 +70,19 @@ public class ModBlocks
 	
 	//add new block to this list, then create blockstate.json, block.json, and item.json. add item to lang.
 	public static final Block MOSAIC_BLOCK = new MosaicBlock("mosaic_block", Material.ROCK);
-	public static final Block RMOSAIC_BLOCK_RED = new MosaicBlock("mosaic_block_red", Material.ROCK);
+	public static final Block MOSAIC_BLOCK_RED = new MosaicBlock("mosaic_block_red", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_ORANGE = new MosaicBlock("mosaic_block_orange", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_YELLOW = new MosaicBlock("mosaic_block_yellow", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_LIME = new MosaicBlock("mosaic_block_lime", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_GREEN = new MosaicBlock("mosaic_block_green", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_BLUE = new MosaicBlock("mosaic_block_blue", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_CYAN = new MosaicBlock("mosaic_block_cyan", Material.ROCK);
-	public static final Block BLUE_MOSAIC_BLOCK_LBLUE = new MosaicBlock("mosaic_block_lblue", Material.ROCK);
+	public static final Block MOSAIC_BLOCK_LBLUE = new MosaicBlock("mosaic_block_lblue", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_PURPLE = new MosaicBlock("mosaic_block_purple", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_MAGENTA = new MosaicBlock("mosaic_block_magenta", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_PINK = new MosaicBlock("mosaic_block_pink", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_BROWN = new MosaicBlock("mosaic_block_brown", Material.ROCK);
-	public static final Block GRAY_MOSAIC_BLOCK_LGRAY = new MosaicBlock("mosaic_block_lgray", Material.ROCK);
+	public static final Block MOSAIC_BLOCK_LGRAY = new MosaicBlock("mosaic_block_lgray", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_GRAY = new MosaicBlock("mosaic_block_gray", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_BLACK = new MosaicBlock("mosaic_block_black", Material.ROCK);
 	public static final Block MOSAIC_BLOCK_WHITE = new MosaicBlock("mosaic_block_white", Material.ROCK);
@@ -311,6 +314,11 @@ public class ModBlocks
 	
 	
 	//Machine Blocks
+	
+	public static final Block TELEPORTER = new BlockTeleporterDimension("teleporter", Material.IRON);
+	public static final Block TELEPORTER_HOME = new BlockTeleporterOverworld("teleporter_home", Material.IRON);
+	
+	public static final Block C4_ARMED = new ExplosiveType("c4_armed", Material.TNT);	
 	public static final Block HYPO_SMELTER = new BlockHypoSmelter("hypo_smelter");
 	public static final Block ULTIMUM_CHARGER = new BlockUltimumCharger("ultimum_charger");
 	

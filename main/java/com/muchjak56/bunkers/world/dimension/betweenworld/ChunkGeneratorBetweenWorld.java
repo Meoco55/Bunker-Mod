@@ -6,8 +6,9 @@ import java.util.Random;
 import javax.annotation.Nullable;
 
 import com.google.common.collect.Lists;
-import com.muchjak56.bunkers.init.ModBlocks;
+import com.muchjak56.bunkers.init.BiomeInit;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockFalling;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -35,7 +36,7 @@ import net.minecraftforge.fml.common.eventhandler.Event;
 public class ChunkGeneratorBetweenWorld implements IChunkGenerator
 {
 	//Block that replaces End Stone
-	protected static final IBlockState MAIN_BLOCK = ModBlocks.UNSTABLE_MATTER.getDefaultState();
+	protected static final IBlockState MAIN_BLOCK = Blocks.STONE.getDefaultState();
     protected static final IBlockState AIR = Blocks.AIR.getDefaultState();
     
     //List of all the mobs you want to spawn
@@ -45,7 +46,7 @@ public class ChunkGeneratorBetweenWorld implements IChunkGenerator
     private final Random rand;
     private final World world;
     private final boolean mapFeaturesEnabled;
-   
+    
     private Biome[] biomesForGeneration;
     private int chunkX = 0, chunkZ = 0;
     
@@ -61,10 +62,9 @@ public class ChunkGeneratorBetweenWorld implements IChunkGenerator
     {
         this.world = world;
         this.mapFeaturesEnabled = mapFeaturesEnabled;
-        
         this.rand = new Random(seed);
         
-        
+ 
         
         this.lperlinNoise1 = new NoiseGeneratorOctaves(this.rand, 16);
         this.lperlinNoise2 = new NoiseGeneratorOctaves(this.rand, 16);
@@ -222,7 +222,7 @@ public class ChunkGeneratorBetweenWorld implements IChunkGenerator
 
         for (int i = 0; i < abyte.length; ++i)
         {
-            abyte[i] = (byte)Biome.getIdForBiome(com.muchjak56.bunkers.init.BiomeInit.BETWEEN_WORLD_DIMENSION);
+            abyte[i] = (byte)Biome.getIdForBiome(BiomeInit.BETWEEN_WORLD_DIMENSION);
         }
 
         chunk.generateSkylightMap();

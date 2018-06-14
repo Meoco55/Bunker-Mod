@@ -18,7 +18,8 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class WorldGenCustomOres implements IWorldGenerator
 {
-	private WorldGenerator hardened_impurities,ultimum_ore,crono_crystal_formation,infernium_ore,unstable_matter;
+	private WorldGenerator hardened_impurities,ultimum_ore,crono_crystal_formation,infernium_ore,unstable_matter,
+						hardened_impurities2,ultimum_ore2,crono_crystal_formation2,unstable_matter2;
 	
 	
 	public WorldGenCustomOres() 
@@ -29,6 +30,13 @@ public class WorldGenCustomOres implements IWorldGenerator
 		crono_crystal_formation = new WorldGenMinable(ModBlocks.CRONO_CRYSTAL_FORMATION.getDefaultState(), 3, BlockMatcher.forBlock(Blocks.STONE));
 		infernium_ore = new WorldGenMinable(ModBlocks.INFERNIUM_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.NETHERRACK));		
 		unstable_matter = new WorldGenMinable(ModBlocks.UNSTABLE_MATTER.getDefaultState(), 3, BlockMatcher.forBlock(Blocks.STONE));
+		
+		hardened_impurities2 = new WorldGenMinable(ModBlocks.HARDENED_IMPURITIES_BLOCK.getDefaultState(), 15, BlockMatcher.forBlock(Blocks.STONE));
+		ultimum_ore2 = new WorldGenMinable(ModBlocks.ULTIMUM_ORE_BLOCK.getDefaultState(), 3, BlockMatcher.forBlock(ModBlocks.HARDENED_IMPURITIES_BLOCK));
+		crono_crystal_formation2 = new WorldGenMinable(ModBlocks.CRONO_CRYSTAL_FORMATION.getDefaultState(), 3, BlockMatcher.forBlock(Blocks.STONE));		
+		unstable_matter2 = new WorldGenMinable(ModBlocks.UNSTABLE_MATTER.getDefaultState(), 3, BlockMatcher.forBlock(Blocks.STONE));
+		
+		
 	}
 	
 	@Override
@@ -62,6 +70,19 @@ public class WorldGenCustomOres implements IWorldGenerator
 			
 		case 1:
 			
+			
+			
+			
+			break;
+			
+			
+			
+		case 2:
+			
+			runGenerator(hardened_impurities2, world, random, chunkX, chunkZ, 50, 5, 120);
+			runGenerator(ultimum_ore2, world, random, chunkX, chunkZ, 100, 5, 120);
+			runGenerator(crono_crystal_formation2, world, random, chunkX, chunkZ, 15, 5, 120);
+			runGenerator(unstable_matter2, world, random, chunkX, chunkZ, 10, 5, 120);
 			
 			
 		}

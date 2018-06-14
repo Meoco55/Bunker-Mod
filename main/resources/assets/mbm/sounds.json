@@ -25,5 +25,12 @@
         "catagory": "blocks",
         "subtitle": "blocks_crono_ambient",
         "sounds": [{ "name": "mbm:blocks/crono/ambient", "stream": true}]
+     },
+     
+     "blocks.explosive.armed":
+    {
+        "catagory": "blocks",
+        "subtitle": "blocks_explosive_armed",
+        "sounds": [{ "name": "mbm:blocks/explosive/armed", "stream": true}]
      }
 }        

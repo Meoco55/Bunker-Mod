@@ -165,6 +165,9 @@ tile.jump_pad_t3.name=Gravity Pad T3
 tile.landing_pad.name=Landing Pad
 tile.force_field.name=Force Field
 
+tile.teleporter.name=Teleporter
+tile.teleporter_home.name=Teleporter to Overworld
+
 tile.ultimum_torch.name=Ultium Torch
 
 
@@ -303,7 +306,7 @@ tile.nano_wall_base.name=Nano Wall Base
 tile.nano_wall.name_crown=Nano Wall Crown
 tile.nano_wall.name=Nano Wall
 
-
+tile.c4_armed.name=C4 Charge
 
 //Tabs
 itemGroup.bunkerblockstab=Bunker Blocks
