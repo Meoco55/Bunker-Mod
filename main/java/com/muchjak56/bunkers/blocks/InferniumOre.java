@@ -26,7 +26,7 @@ public class InferniumOre extends BlockBase
 		setSoundType(SoundType.STONE);
 		setHardness(4.0F);
 		setResistance(50.0F);
-		setHarvestLevel("pickaxe", 3);		
+		setHarvestLevel("pickaxe", 5);		
 		setLightOpacity(0);
 		
 	}

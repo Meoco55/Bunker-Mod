@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.muchjak56.bunkers.Bunkers;
+
+import com.muchjak56.bunkers.blocks.AntiUltimumOre;
 import com.muchjak56.bunkers.blocks.BarbedWire;
 import com.muchjak56.bunkers.blocks.BlockBase;
 import com.muchjak56.bunkers.blocks.BlockTeleporterDimension;
@@ -15,7 +17,6 @@ import com.muchjak56.bunkers.blocks.BunkerLightBlock;
 import com.muchjak56.bunkers.blocks.BunkerWall;
 import com.muchjak56.bunkers.blocks.CatWalk;
 import com.muchjak56.bunkers.blocks.CronoCrystalFormation;
-
 import com.muchjak56.bunkers.blocks.ForceField;
 import com.muchjak56.bunkers.blocks.InferniumOre;
 import com.muchjak56.bunkers.blocks.MosaicBlock;
@@ -88,7 +89,8 @@ public class ModBlocks
 	public static final Block MOSAIC_BLOCK_WHITE = new MosaicBlock("mosaic_block_white", Material.ROCK);
 	
 	
-	
+	public static final Block CHISELED_IMPURITIES = new UltimumOre("chiseled_impurities", Material.ROCK);
+	public static final Block CHISELED_PURITIES = new AntiUltimumOre("chiseled_purities", Material.ROCK);
 	public static final Block RYAN = new BlockBase("ryan", Material.ROCK);
 	
 	
@@ -172,6 +174,8 @@ public class ModBlocks
 	public static final Block BUNKER_GLASS_PILLAR_BLOCK = new BunkerGlassPillarBlock("bunker_glass_pillar_block", Material.IRON);
 	public static final Block ROUND_LOG = new RoundLog("round_log", Material.WOOD);
 	public static final Block ROUND_LOG_TOP = new RoundLogTop("round_log_top", Material.WOOD);
+	public static final Block IMPURITIES_PILLAR = new PillarType("impurities_pillar", Material.ROCK);
+	public static final Block PURITIES_PILLAR = new PillarType("purities_pillar", Material.ROCK);
 	
 	public static final Block CAT_WALK_BLOCK = new CatWalk("cat_walk_block", Material.IRON);
 	public static final Block ULTIMUM_BLOCK = new UltimumBlock("ultimum_block", Material.IRON);
@@ -179,7 +183,9 @@ public class ModBlocks
 	
 	//Ores
 	public static final Block ULTIMUM_ORE_BLOCK = new UltimumOre("ultimum_ore_block", Material.ROCK);
+	public static final Block ANTI_ULTIMUM_ORE_BLOCK = new AntiUltimumOre("anti_ultimum_ore_block", Material.ROCK);
 	public static final Block HARDENED_IMPURITIES_BLOCK = new UltimumOre("hardened_impurities_block", Material.ROCK);
+	public static final Block HARDENED_PURITIES_BLOCK = new AntiUltimumOre("hardened_purities_block", Material.ROCK);
 	public static final Block CRONO_CRYSTAL_FORMATION = new CronoCrystalFormation("crono_crystal_formation", Material.ROCK);
 	public static final Block INFERNIUM_ORE = new InferniumOre("infernium_ore", Material.ROCK);		
 	public static final Block UNSTABLE_MATTER = new UnstableMatter("unstable_matter", Material.ROCK);		
@@ -201,6 +207,9 @@ public class ModBlocks
 	
 	
 	//Stairs
+	public static final Block IMPURITIES_STAIRS = new StairType("impurities_stairs", Material.IRON, HARDENED_IMPURITIES_BLOCK.getDefaultState());
+	public static final Block PURITIES_STAIRS = new StairType("purities_stairs", Material.IRON, HARDENED_PURITIES_BLOCK.getDefaultState());
+	
 	public static final Block BUNKER_STAIRS = new StairType("bunker_stairs", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState());
 	public static final Block BUNKER_STAIRS_RED = new StairType("bunker_stairs_red", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
 	public static final Block BUNKER_STAIRS_ORANGE = new StairType("bunker_stairs_orange", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
@@ -352,7 +361,8 @@ public class ModBlocks
 	public static final Block TELEPORTER = new BlockTeleporterDimension("teleporter", Material.IRON);
 	public static final Block TELEPORTER_HOME = new BlockTeleporterOverworld("teleporter_home", Material.IRON);
 	
-	public static final Block C4_ARMED = new ExplosiveType("c4_armed", Material.TNT);	
+	public static final Block C4_ARMED = new ExplosiveType("c4_armed", Material.TNT);
+	
 	public static final Block HYPO_SMELTER = new BlockHypoSmelter("hypo_smelter");
 	public static final Block ULTIMUM_CHARGER = new BlockUltimumCharger("ultimum_charger");
 	

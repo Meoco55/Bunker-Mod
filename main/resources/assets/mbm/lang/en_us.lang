@@ -42,6 +42,7 @@ item.infernium_core.name=Infernium Core
 
 
 //Blocks
+
 tile.mosaic_block.name=Mosaic Block
 tile.mosaic_block_red.name=Red Mosaic Block
 tile.mosaic_block_orange.name=Orange Mosaic Block
@@ -139,7 +140,10 @@ tile.bunker_grate_floor_block_gray.name=Gray Bunker Grate Floor
 tile.bunker_grate_floor_block_black.name=Black Bunker Grate Floor
 tile.bunker_grate_floor_block_white.name=White Bunker Grate Floor
 
-
+tile.chiseled_impurities.name= Hardened Chiseled Impurities
+tile.chiseled_purities.name= Hardened Chiseled Impurities
+tile.impurities_pillar.name= Hardened Impurities Pillar
+tile.purities_pillar.name= Hardened Impurities Pillar
 tile.ultimum_block.name=Block of Ultium
 tile.bunker_glass_pillar_block.name=Bunker Glass Pillar
 
@@ -173,7 +177,9 @@ tile.ultimum_torch.name=Ultium Torch
 
 //Ore
 tile.hardened_impurities_block.name=Hardened Impurities
+tile.hardened_purities_block.name=Hardened Impurities
 tile.ultimum_ore_block.name=Ultimum Ore
+tile.anti_ultimum_ore_block.name=Anti Ultimum Ore
 tile.crono_crystal_formation.name=Crono Crystal Formation
 tile.infernium_ore.name=Infernium Ore
 tile.unstable_matter.name=Unstable Matter
@@ -193,6 +199,9 @@ tile.bunker_wall.name=Bunker Wall
 tile.bunker_door.name=Bunker Door
 
 //Stairs
+tile.impurities_stairs.name=Hardened Impurities Stairs
+tile.purities_stairs.name=Hardened Impurities Stairs
+
 tile.bunker_stairs.name=Bunker Stairs
 tile.bunker_stairs_red.name=Red Bunker Stairs
 tile.bunker_stairs_orange.name=Orange Bunker Stairs

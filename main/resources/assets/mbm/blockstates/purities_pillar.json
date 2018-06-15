@@ -1,0 +1,8 @@
+{
+    "variants": {
+        
+        "axis=y": { "model": "mbm:purities_pillar" },
+        "axis=z": { "model": "mbm:purities_pillar", "x": 90 },
+        "axis=x": { "model": "mbm:purities_pillar", "x": 90, "y": 90 }
+    }
+}

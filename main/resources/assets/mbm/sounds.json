@@ -32,5 +32,11 @@
         "catagory": "blocks",
         "subtitle": "blocks_explosive_armed",
         "sounds": [{ "name": "mbm:blocks/explosive/armed", "stream": true}]
+     },
+      "blocks.explosive.anti_device":
+    {
+        "catagory": "blocks",
+        "subtitle": "blocks_explosive_anti_device",
+        "sounds": [{ "name": "mbm:blocks/explosive/anti_device", "stream": true}]
      }
 }        

@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": 
+    {
+        "up": "mbm:blocks/purities_pillar_top",
+        "down": "mbm:blocks/purities_pillar_top",
+        "north": "mbm:blocks/purities_pillar_side",
+        "east": "mbm:blocks/purities_pillar_side",
+        "south": "mbm:blocks/purities_pillar_side",
+        "west": "mbm:blocks/purities_pillar_side"
+    }
+}

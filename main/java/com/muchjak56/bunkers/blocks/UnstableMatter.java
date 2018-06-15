@@ -20,7 +20,7 @@ public class UnstableMatter extends BlockBase
 		setSoundType(SoundType.STONE);
 		setHardness(3.0F);
 		setResistance(40.0F);
-		setHarvestLevel("pickaxe", 3);
+		setHarvestLevel("pickaxe", 7);
 		setLightLevel(0.0F);
 		setLightOpacity(0);
 		

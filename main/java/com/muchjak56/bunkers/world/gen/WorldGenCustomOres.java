@@ -18,7 +18,7 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 
 public class WorldGenCustomOres implements IWorldGenerator
 {
-	private WorldGenerator hardened_impurities,ultimum_ore,crono_crystal_formation,infernium_ore,unstable_matter,
+	private WorldGenerator hardened_impurities,hardened_purities,ultimum_ore,anti_ultimum_ore,crono_crystal_formation,infernium_ore,unstable_matter,
 						hardened_impurities2,ultimum_ore2,crono_crystal_formation2,unstable_matter2;
 	
 	
@@ -26,7 +26,9 @@ public class WorldGenCustomOres implements IWorldGenerator
 	{
 		
 		hardened_impurities = new WorldGenMinable(ModBlocks.HARDENED_IMPURITIES_BLOCK.getDefaultState(), 11, BlockMatcher.forBlock(Blocks.STONE));
+		hardened_purities = new WorldGenMinable(ModBlocks.HARDENED_PURITIES_BLOCK.getDefaultState(), 7, BlockMatcher.forBlock(Blocks.STONE));
 		ultimum_ore = new WorldGenMinable(ModBlocks.ULTIMUM_ORE_BLOCK.getDefaultState(), 3, BlockMatcher.forBlock(ModBlocks.HARDENED_IMPURITIES_BLOCK));
+		anti_ultimum_ore = new WorldGenMinable(ModBlocks.ANTI_ULTIMUM_ORE_BLOCK.getDefaultState(), 3, BlockMatcher.forBlock(ModBlocks.HARDENED_PURITIES_BLOCK));
 		crono_crystal_formation = new WorldGenMinable(ModBlocks.CRONO_CRYSTAL_FORMATION.getDefaultState(), 3, BlockMatcher.forBlock(Blocks.STONE));
 		infernium_ore = new WorldGenMinable(ModBlocks.INFERNIUM_ORE.getDefaultState(), 5, BlockMatcher.forBlock(Blocks.NETHERRACK));		
 		unstable_matter = new WorldGenMinable(ModBlocks.UNSTABLE_MATTER.getDefaultState(), 3, BlockMatcher.forBlock(Blocks.STONE));
@@ -60,7 +62,9 @@ public class WorldGenCustomOres implements IWorldGenerator
 		case 0:
 			
 			runGenerator(hardened_impurities, world, random, chunkX, chunkZ, 10, 5, 10);
+			runGenerator(hardened_purities, world, random, chunkX, chunkZ, 10, 5, 10);
 			runGenerator(ultimum_ore, world, random, chunkX, chunkZ, 50, 5, 10);
+			runGenerator(anti_ultimum_ore, world, random, chunkX, chunkZ, 50, 5, 10);
 			runGenerator(crono_crystal_formation, world, random, chunkX, chunkZ, 5, 5, 25);
 			runGenerator(unstable_matter, world, random, chunkX, chunkZ, 1, 10, 25);
 			

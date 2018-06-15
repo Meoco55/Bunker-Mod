@@ -35,10 +35,10 @@ public class ModItems
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	//materials
-	public static final ToolMaterial TOOL_ULTIMUM = EnumHelper.addToolMaterial("tool_ultimum", 3, 1600, 9.0F, 7.0F, 10);
-	public static final ToolMaterial TOOL_CRONO_ULTIMUM = EnumHelper.addToolMaterial("tool_crono_ultimum", 3, 1600, 11.0F, 9.0F, 10);
-	public static final ToolMaterial TOOL_INFERNIUM_ULTIMUM = EnumHelper.addToolMaterial("tool_infernium_ultimum", 3, 1600, 12.0F, 10.0F, 10);
-	public static final ToolMaterial TOOL_CRONO_INFERNIUM_ULTIMUM = EnumHelper.addToolMaterial("tool_crono_infernium_ultimum", 3, 1600, 14.0F, 14.0F, 10);
+	public static final ToolMaterial TOOL_ULTIMUM = EnumHelper.addToolMaterial("tool_ultimum", 4, 1600, 9.0F, 7.0F, 10);
+	public static final ToolMaterial TOOL_CRONO_ULTIMUM = EnumHelper.addToolMaterial("tool_crono_ultimum", 5, 1600, 11.0F, 9.0F, 10);
+	public static final ToolMaterial TOOL_INFERNIUM_ULTIMUM = EnumHelper.addToolMaterial("tool_infernium_ultimum", 6, 1600, 12.0F, 10.0F, 10);
+	public static final ToolMaterial TOOL_CRONO_INFERNIUM_ULTIMUM = EnumHelper.addToolMaterial("tool_crono_infernium_ultimum", 7, 1600, 14.0F, 14.0F, 10);
 	public static final ArmorMaterial ARMOR_ULTIMUM = EnumHelper.addArmorMaterial("armor_ultimum", Reference.MOD_ID + ":ultimum_exo", 77, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0F);
 	
 	//add new items to this list, then create item.json, add item to lang.
@@ -48,7 +48,9 @@ public class ModItems
 	public static final Item MORTAR = new ItemBase("mortar");
 	public static final Item CRUCIBLE = new ItemBase("crucible");
 	public static final Item ULTIMUM_NUGGET = new ItemBase("ultimum_nugget");
+	public static final Item ANTI_ULTIMUM_NUGGET = new ItemBase("anti_ultimum_nugget");
 	public static final Item ULTIMUM_INGOT = new ItemBase("ultimum_ingot");
+	public static final Item ANTI_ULTIMUM_INGOT = new ItemBase("anti_ultimum_ingot");
 	public static final Item HARDENED_ROD = new ItemBase("hardened_rod");
 	public static final Item CRONO_CRYSTAL = new ItemBase("crono_crystal");
 	public static final Item INFERNIUM_SHARD = new ItemBase("infernium_shard");
