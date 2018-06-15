@@ -44,7 +44,7 @@ item.infernium_core.name=Infernium Core
 //Blocks
 tile.mosaic_block.name=Mosaic Block
 tile.mosaic_block_red.name=Red Mosaic Block
-tile.mosaic_block_orannge.name=Orange Mosaic Block
+tile.mosaic_block_orange.name=Orange Mosaic Block
 tile.mosaic_block_yellow.name=Yellow Mosaic Block
 tile.mosaic_block_green.name=Green Mosaic Block
 tile.mosaic_block_lime.name=Lime Mosaic Block
@@ -63,7 +63,7 @@ tile.mosaic_block_white.name=White Mosaic Block
 
 tile.bunker_wall_block.name=Bunker Wall Block
 tile.bunker_wall_block_red.name=Red Bunker Wall Block
-tile.bunker_wall_block_orannge.name=Orange Bunker Wall Block
+tile.bunker_wall_block_orange.name=Orange Bunker Wall Block
 tile.bunker_wall_block_yellow.name=Yellow Bunker Wall Block
 tile.bunker_wall_block_green.name=Green Bunker Wall Block
 tile.bunker_wall_block_lime.name=Lime Bunker Wall Block
@@ -83,7 +83,7 @@ tile.bunker_wall_block_white.name=White Bunker Wall Block
 
 tile.bunker_trim_base_block.name=Bunker Base Trim
 tile.bunker_trim_base_block_red.name=Red Bunker Trim Base Block
-tile.bunker_trim_base_block_orannge.name=Orange Bunker Trim Base Block
+tile.bunker_trim_base_block_orange.name=Orange Bunker Trim Base Block
 tile.bunker_trim_base_block_yellow.name=Yellow Bunker Trim Base Block
 tile.bunker_trim_base_block_green.name=Green Bunker Trim Base Block
 tile.bunker_trim_base_block_lime.name=Lime Bunker Trim Base Block
@@ -104,7 +104,7 @@ tile.bunker_trim_base_block_white.name=White Bunker Trim Base Block
 
 tile.bunker_trim_crown_block.name=Bunker Crown Trim
 tile.bunker_trim_crown_block_red.name=Red Bunker Trim Crown Block
-tile.bunker_trim_crown_block_orannge.name=Orange Bunker Trim Crown Block
+tile.bunker_trim_crown_block_orange.name=Orange Bunker Trim Crown Block
 tile.bunker_trim_crown_block_yellow.name=Yellow Bunker Trim Crown Block
 tile.bunker_trim_crown_block_green.name=Green Bunker Trim Crown Block
 tile.bunker_trim_crown_block_lime.name=Lime Bunker Trim Crown Block
@@ -123,7 +123,7 @@ tile.bunker_trim_crown_block_white.name=White Bunker Trim Crown Block
 
 tile.bunker_grate_floor_block.name=Bunker Grate Floor
 tile.bunker_grate_floor_block_red.name=Red Bunker Grate Floor
-tile.bunker_grate_floor_block_orannge.name=Orange Bunker Grate Floor
+tile.bunker_grate_floor_block_orange.name=Orange Bunker Grate Floor
 tile.bunker_grate_floor_block_yellow.name=Yellow Bunker Grate Floor
 tile.bunker_grate_floor_block_green.name=Green Bunker Grate Floor
 tile.bunker_grate_floor_block_lime.name=Lime Bunker Grate Floor
@@ -210,6 +210,42 @@ tile.bunker_stairs_lgray.name=Light Gray Bunker Stairs
 tile.bunker_stairs_gray.name=Gray Bunker Stairs
 tile.bunker_stairs_black.name=Black Bunker Stairs
 tile.bunker_stairs_white.name=White Bunker Stairs
+
+tile.bunker_base_trim_stairs.name=Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_red.name=Red Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_orange.name=Orange Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_yellow.name=Yellow Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_green.name=Green Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_lime.name=Lime Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_blue.name=Blue Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_lblue.name=Light Blue Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_cyan.name=Cyan Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_purple.name=Purple Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_magenta.name=Magenta Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_pink.name=Pink Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_brown.name=Brown Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_lgray.name=Light Gray Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_gray.name=Gray Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_black.name=Black Bunker Base Trim Stairs
+tile.bunker_base_trim_stairs_white.name=White Bunker Base Trim Stairs
+
+tile.bunker_crown_trim_stairs.name=Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_red.name=Red Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_orange.name=Orange Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_yellow.name=Yellow Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_green.name=Green Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_lime.name=Lime Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_blue.name=Blue Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_lblue.name=Light Blue Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_cyan.name=Cyan Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_purple.name=Purple Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_magenta.name=Magenta Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_pink.name=Pink Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_brown.name=Brown Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_lgray.name=Light Gray Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_gray.name=Gray Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_black.name=Black Bunker Crown Trim Stairs
+tile.bunker_crown_trim_stairs_white.name=White Bunker Crown Trim Stairs
 
 tile.bunker_grate_stairs.name=Bunker Grate Stairs
 tile.bunker_grate_stairs_red.name=Red Bunker Grate Stairs

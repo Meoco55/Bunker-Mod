@@ -7,6 +7,7 @@ import com.muchjak56.bunkers.world.biomes.BiomeBetweenWorld;
 import com.muchjak56.bunkers.world.gen.generators.WorldGenStructure;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockAir;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -106,7 +107,10 @@ public class WorldGenCustomStructures implements IWorldGenerator
 		while(!foundGround && y-- >= 0)
 		{
 			Block block = world.getBlockState(new BlockPos(x,y,z)).getBlock();
+			if(topBlock instanceof Block && !(topBlock instanceof BlockAir))
+			{
 			foundGround = block == topBlock;
+			}
 		}
 		
 		return y;

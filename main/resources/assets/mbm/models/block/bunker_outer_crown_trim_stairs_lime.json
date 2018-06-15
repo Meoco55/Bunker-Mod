@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "mbm:blocks/bunkerwall1limegreen",
+        "top": "mbm:blocks/bunkerwall1limegreen",
+        "side": "mbm:blocks/bunkertrim2sidelimegreen"
+    }
+}

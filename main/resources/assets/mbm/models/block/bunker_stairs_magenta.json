@@ -3,6 +3,6 @@
     "textures": {
         "bottom": "mbm:blocks/bunkerwall1magenta",
         "top": "mbm:blocks/bunkerwall1magenta",
-        "side": "mbm:blocks/bunkertrim1sidemagenta"
+        "side": "mbm:blocks/bunkerwall1magenta"
     }
 }
