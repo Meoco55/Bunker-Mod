@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bunker_stairs",
+    "pattern":
+    [
+        "  A",
+        " AA",
+        "AAA"      
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "mbm:bunker_wall_block_white"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:bunker_stairs_white",
+        "count": 4
+    }
+}

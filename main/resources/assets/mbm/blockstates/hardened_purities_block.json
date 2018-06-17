@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "mbm:hardened_purities_block" }
+    }
+}

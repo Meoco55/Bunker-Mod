@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": 
+    {
+        "up": "mbm:blocks/hardened_impurities",
+        "down": "mbm:blocks/hardened_impurities",
+        "north": "mbm:blocks/chiseled_impurities",
+        "east": "mbm:blocks/chiseled_impurities",
+        "south": "mbm:blocks/chiseled_impurities",
+        "west": "mbm:blocks/chiseled_impurities"
+    }
+}

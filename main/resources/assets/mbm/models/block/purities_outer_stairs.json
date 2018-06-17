@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "mbm:blocks/hardened_purities",
+        "top": "mbm:blocks/hardened_purities",
+        "side": "mbm:blocks/hardened_purities"
+    }
+}

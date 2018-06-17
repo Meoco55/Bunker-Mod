@@ -4,19 +4,19 @@
     "pattern":
     [
         "AAA",
-        "BAB",
+        "ABA",
         "AAA"      
     ],
     
     "key":
     {
-        "B":
+        "A":
         {
             "item": "minecraft:Iron_Bars"
         },
-        "A":
+        "B":
         {
-            "item": "mbm:bunker_fence"
+            "item": "mbm:bunker_wall_block"
         }
     },
     

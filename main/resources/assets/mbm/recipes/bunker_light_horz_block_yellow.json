@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "bunker_light_horz_block",
+    "ingredients":
+    [
+ 
+    {
+      "item": "minecraft:dye",
+      "data": 11
+    },
+ 
+    {
+      "item": "mbm:bunker_light_horz_block"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "mbm:bunker_light_horz_block_yellow",
+        "count": 1
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bunker_crown_block",
+    "pattern":
+    [
+        "B"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:bunker_trim_base_block_lblue"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:bunker_trim_crown_block_lblue",
+        "count": 1
+    }
+}

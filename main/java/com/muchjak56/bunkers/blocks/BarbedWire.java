@@ -30,9 +30,7 @@ public class BarbedWire extends PillarType
 		setHardness(2.0F);
 		setResistance(10.0F);
 		setHarvestLevel("pickaxe", 2);
-		//setLightLevel(0.0F);
-		setLightOpacity(0);
-		//setBlockUnbreakable();
+		setLightOpacity(1);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(AXIS, EnumFacing.Axis.Y));
 	}
 	

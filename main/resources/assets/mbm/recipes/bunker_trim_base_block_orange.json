@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bunker_base_block",
+    "pattern":
+    [
+        "B"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:bunker_wall_block_orange"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:bunker_trim_base_block_orange",
+        "count": 1
+    }
+}

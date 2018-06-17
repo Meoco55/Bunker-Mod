@@ -50,7 +50,7 @@ public class BlockTeleporterDimension extends BlockBase
     }
 	@Override
 	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
-		return new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 0.4D, 1.0D);
+		return new AxisAlignedBB(0.0D, 0.0D, 1.4D, 1.0D, 0.4D, 0.4D);
 	}
 	public boolean isFullCube(IBlockState state)
     {

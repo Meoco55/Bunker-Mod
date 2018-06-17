@@ -1,11 +1,10 @@
 {
     "type": "minecraft:crafting_shaped",
-    
+    "group": "solar_light",
     "pattern":
     [
         "A",
-        "B",
-        "C"      
+        "B"      
     ],
     
     "key":
@@ -17,10 +16,6 @@
         "A":
         {
             "item": "mbm:bunker_light_horz_block"
-        },
-         "C":
-        {
-            "item": "mbm:bunker_fence"
         }
     },
     

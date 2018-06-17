@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.muchjak56.bunkers.Bunkers;
+
+import com.muchjak56.bunkers.blocks.AntiUltimumOre;
 import com.muchjak56.bunkers.blocks.BarbedWire;
 import com.muchjak56.bunkers.blocks.BlockBase;
 import com.muchjak56.bunkers.blocks.BlockTeleporterDimension;
@@ -11,23 +13,20 @@ import com.muchjak56.bunkers.blocks.BlockTeleporterOverworld;
 import com.muchjak56.bunkers.blocks.BunkerGlassPane;
 import com.muchjak56.bunkers.blocks.BunkerGlassPillarBlock;
 import com.muchjak56.bunkers.blocks.BunkerLightBlock;
-
 import com.muchjak56.bunkers.blocks.BunkerWall;
 import com.muchjak56.bunkers.blocks.CatWalk;
 import com.muchjak56.bunkers.blocks.CronoCrystalFormation;
-
 import com.muchjak56.bunkers.blocks.ForceField;
 import com.muchjak56.bunkers.blocks.InferniumOre;
 import com.muchjak56.bunkers.blocks.MosaicBlock;
 import com.muchjak56.bunkers.blocks.RoundLog;
 import com.muchjak56.bunkers.blocks.RoundLogTop;
+import com.muchjak56.bunkers.blocks.Skewers;
 import com.muchjak56.bunkers.blocks.SolarLight;
 import com.muchjak56.bunkers.blocks.UltimumBlock;
 import com.muchjak56.bunkers.blocks.UltimumOre;
 import com.muchjak56.bunkers.blocks.UltimumTorch;
 import com.muchjak56.bunkers.blocks.UnstableMatter;
-
-
 import com.muchjak56.bunkers.blocks.blocktype.DoorType;
 import com.muchjak56.bunkers.blocks.blocktype.ExplosiveType;
 import com.muchjak56.bunkers.blocks.blocktype.FenceType;
@@ -39,7 +38,6 @@ import com.muchjak56.bunkers.blocks.blocktype.StairType;
 import com.muchjak56.bunkers.blocks.blocktype.TorchType;
 import com.muchjak56.bunkers.blocks.blocktype.WallType;
 import com.muchjak56.bunkers.blocks.machine.hyposmelter.BlockHypoSmelter;
-
 import com.muchjak56.bunkers.blocks.machine.jumppad.JumpPad;
 import com.muchjak56.bunkers.blocks.machine.jumppad.JumpPadAngle;
 import com.muchjak56.bunkers.blocks.machine.jumppad.JumpPadAngleT2;
@@ -54,7 +52,6 @@ import com.muchjak56.bunkers.blocks.machine.nanowall.NanoWallOn;
 import com.muchjak56.bunkers.blocks.machine.ultimumcharger.BlockUltimumCharger;
 import com.muchjak56.bunkers.blocks.machine.xray.XrayDevice;
 import com.muchjak56.bunkers.blocks.machine.xray.XrayOn;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
@@ -88,7 +85,8 @@ public class ModBlocks
 	public static final Block MOSAIC_BLOCK_WHITE = new MosaicBlock("mosaic_block_white", Material.ROCK);
 	
 	
-	
+	public static final Block CHISELED_IMPURITIES = new UltimumOre("chiseled_impurities", Material.ROCK);
+	public static final Block CHISELED_PURITIES = new AntiUltimumOre("chiseled_purities", Material.ROCK);
 	public static final Block RYAN = new BlockBase("ryan", Material.ROCK);
 	
 	
@@ -172,6 +170,8 @@ public class ModBlocks
 	public static final Block BUNKER_GLASS_PILLAR_BLOCK = new BunkerGlassPillarBlock("bunker_glass_pillar_block", Material.IRON);
 	public static final Block ROUND_LOG = new RoundLog("round_log", Material.WOOD);
 	public static final Block ROUND_LOG_TOP = new RoundLogTop("round_log_top", Material.WOOD);
+	public static final Block IMPURITIES_PILLAR = new PillarType("impurities_pillar", Material.ROCK);
+	public static final Block PURITIES_PILLAR = new PillarType("purities_pillar", Material.ROCK);
 	
 	public static final Block CAT_WALK_BLOCK = new CatWalk("cat_walk_block", Material.IRON);
 	public static final Block ULTIMUM_BLOCK = new UltimumBlock("ultimum_block", Material.IRON);
@@ -179,7 +179,9 @@ public class ModBlocks
 	
 	//Ores
 	public static final Block ULTIMUM_ORE_BLOCK = new UltimumOre("ultimum_ore_block", Material.ROCK);
+	public static final Block ANTI_ULTIMUM_ORE_BLOCK = new AntiUltimumOre("anti_ultimum_ore_block", Material.ROCK);
 	public static final Block HARDENED_IMPURITIES_BLOCK = new UltimumOre("hardened_impurities_block", Material.ROCK);
+	public static final Block HARDENED_PURITIES_BLOCK = new AntiUltimumOre("hardened_purities_block", Material.ROCK);
 	public static final Block CRONO_CRYSTAL_FORMATION = new CronoCrystalFormation("crono_crystal_formation", Material.ROCK);
 	public static final Block INFERNIUM_ORE = new InferniumOre("infernium_ore", Material.ROCK);		
 	public static final Block UNSTABLE_MATTER = new UnstableMatter("unstable_matter", Material.ROCK);		
@@ -201,6 +203,9 @@ public class ModBlocks
 	
 	
 	//Stairs
+	public static final Block IMPURITIES_STAIRS = new StairType("impurities_stairs", Material.IRON, HARDENED_IMPURITIES_BLOCK.getDefaultState());
+	public static final Block PURITIES_STAIRS = new StairType("purities_stairs", Material.IRON, HARDENED_PURITIES_BLOCK.getDefaultState());
+	
 	public static final Block BUNKER_STAIRS = new StairType("bunker_stairs", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState());
 	public static final Block BUNKER_STAIRS_RED = new StairType("bunker_stairs_red", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
 	public static final Block BUNKER_STAIRS_ORANGE = new StairType("bunker_stairs_orange", Material.IRON, BUNKER_WALL_BLOCK.getDefaultState()).setCreativeTab(Bunkers.bunkerdecortab);
@@ -315,6 +320,7 @@ public class ModBlocks
 	
 	
 	
+	
 	//Glass Blocks
 	public static final Block BUNKER_GLASS_PORT_BLOCK = new GlassType("bunker_glass_port_block", Material.GLASS,true);
 	public static final Block BUNKER_GLASS_PORT_BLOCK_RED = new GlassType("bunker_glass_port_block_red", Material.GLASS,true).setCreativeTab(Bunkers.bunkerdecortab);
@@ -352,7 +358,8 @@ public class ModBlocks
 	public static final Block TELEPORTER = new BlockTeleporterDimension("teleporter", Material.IRON);
 	public static final Block TELEPORTER_HOME = new BlockTeleporterOverworld("teleporter_home", Material.IRON);
 	
-	public static final Block C4_ARMED = new ExplosiveType("c4_armed", Material.TNT);	
+	public static final Block C4_ARMED = new ExplosiveType("c4_armed", Material.TNT);
+	
 	public static final Block HYPO_SMELTER = new BlockHypoSmelter("hypo_smelter");
 	public static final Block ULTIMUM_CHARGER = new BlockUltimumCharger("ultimum_charger");
 	
@@ -365,6 +372,9 @@ public class ModBlocks
 	public static final Block NANO_WALL_ON = new NanoWallOn("nano_wall_on", false, Material.IRON);
 	
 	public static final Block BARBED_WIRE = new BarbedWire("barbed_wire", Material.IRON);
+	public static final Block SKEWERS = new Skewers("skewers", Material.IRON);
+	
+	
 	
 	public static final Block JUMP_PAD = new JumpPad("jump_pad", Material.IRON);
 	public static final Block JUMP_PAD_T2 = new JumpPadT2("jump_pad_t2", Material.IRON);

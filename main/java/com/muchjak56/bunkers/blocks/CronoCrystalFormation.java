@@ -14,6 +14,7 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityFurnace;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.SoundCategory;
+import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
@@ -30,7 +31,7 @@ public class CronoCrystalFormation extends BlockBase
 		setSoundType(SoundType.GLASS);
 		setHardness(3.0F);
 		setResistance(40.0F);
-		setHarvestLevel("pickaxe", 3);
+		setHarvestLevel("pickaxe", 4);
 		setLightLevel(1.0F);
 		setLightOpacity(1);
 		//setBlockUnbreakable();
@@ -77,6 +78,5 @@ public class CronoCrystalFormation extends BlockBase
                 worldIn.playSound((double)pos.getX() + 0.5D, (double)pos.getY(), (double)pos.getZ() + 0.5D, SoundsHandler.BLOCKS_CRONO_AMBIENT, SoundCategory.BLOCKS, 1.0F, 1.0F, false);
             }
     }
-    
-
+                
 }

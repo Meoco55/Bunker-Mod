@@ -6,6 +6,7 @@ import com.muchjak56.bunkers.init.ModItems;
 import com.muchjak56.bunkers.util.IHasModel;
 
 import net.minecraft.block.BlockRotatedPillar;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
@@ -18,10 +19,15 @@ import net.minecraft.world.World;
 public class PillarType  extends BlockRotatedPillar implements IHasModel
 {
 
-	protected PillarType(String name, Material materialIn) {
+	public PillarType(String name, Material materialIn) {
 		super(materialIn);
 		setUnlocalizedName(name);
 		setRegistryName(name);
+		setSoundType(SoundType.STONE);
+		setHardness(3.0F);
+		setResistance(40.0F);
+		setHarvestLevel("pickaxe", 3);		
+		setLightOpacity(0);
 		setCreativeTab(Bunkers.bunkerblockstab);
 		
 		ModBlocks.BLOCKS.add(this);

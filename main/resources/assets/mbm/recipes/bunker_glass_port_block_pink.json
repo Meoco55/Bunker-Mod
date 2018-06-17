@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "bunker_port_block",
+    "ingredients":
+    [
+ 
+    {
+      "item": "minecraft:dye",
+      "data": 9
+    },
+ 
+    {
+      "item": "mbm:bunker_glass_port_block"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "mbm:bunker_glass_port_block_pink",
+        "count": 1
+    }
+}
