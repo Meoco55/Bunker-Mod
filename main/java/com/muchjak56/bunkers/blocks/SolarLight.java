@@ -3,6 +3,7 @@ package com.muchjak56.bunkers.blocks;
 import java.util.Random;
 
 import com.muchjak56.bunkers.blocks.blocktype.TorchType;
+import com.muchjak56.bunkers.init.ModBlocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -10,6 +11,8 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
@@ -20,11 +23,14 @@ import net.minecraft.world.EnumSkyBlock;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public class SolarLight extends TorchType
-
-{
-	public SolarLight(String name, Material material) {
-		super(name, material);		 
+public class SolarLight extends TorchType{
+	
+	
+	 
+	public SolarLight(String name, Material material) 
+	{
+		super(name, material);	
+		
 		setSoundType(SoundType.GLASS);
 		setHardness(3.0F);
 		setResistance(15.0F);
@@ -41,6 +47,5 @@ public class SolarLight extends TorchType
 
 	public boolean canPlaceUpsideDown() {
 		return false;
-	} 
-
+	} 	 
 }

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "bunker_wall_block",
+    "ingredients":
+    [
+ 
+    {
+      "item": "minecraft:dye",
+      "data": 3
+    },
+ 
+    {
+      "item": "mbm:bunker_wall_block"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "mbm:bunker_wall_block_brown",
+        "count": 1
+    }
+}

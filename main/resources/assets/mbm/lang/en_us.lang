@@ -157,6 +157,9 @@ tile.steel_ladder.name=Steel Ladder
 tile.bunker_ladder.name=Bunker Ladder
 
 tile.barbed_wire.name=Barbed Wire
+tile.skewers.name=Skewers
+
+
 
 tile.jump_pad_angle.name=Gravity Pad Slant T1
 tile.jump_pad_angle_t2.name=Gravity Pad Slant T2

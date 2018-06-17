@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "mbm:hardened_impurities_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:chiseled_impurities",
+        "count": 1
+    }
+}

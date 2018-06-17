@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "bunker_crown_trim_stairs",
+    "pattern":
+    [
+        "  A",
+        " AA",
+        "AAA"      
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "mbm:bunker_trim_crown_block_pink"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:bunker_crown_trim_stairs_pink",
+        "count": 4
+    }
+}

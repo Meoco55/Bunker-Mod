@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "bunker_light_vert_block",
+    "ingredients":
+    [
+ 
+    {
+      "item": "minecraft:dye",
+      "data": 12
+    },
+ 
+    {
+      "item": "mbm:bunker_light_horz_block"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "mbm:bunker_light_vert_block_lblue",
+        "count": 1
+    }
+}

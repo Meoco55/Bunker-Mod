@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "solar_light",
+    "pattern":
+    [
+        "A",
+        "B"      
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:daylight_detector"
+        },
+        "A":
+        {
+            "item": "mbm:bunker_light_vert_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:solar_light",
+        "count": 1
+    }
+}

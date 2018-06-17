@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "  A",
+        " AA",
+        "AAA"      
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "mbm:hardened_purities_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "mbm:purities_stairs",
+        "count": 4
+    }
+}

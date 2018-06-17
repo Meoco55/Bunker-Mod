@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "mosaic",
+    "ingredients":
+    [
+ 
+    {
+      "item": "minecraft:dye",
+      "data": 3
+    },
+ 
+    {
+      "item": "mbm:mosaic_block"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "mbm:mosaic_block_brown",
+        "count": 1
+    }
+}

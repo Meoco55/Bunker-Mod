@@ -13,7 +13,6 @@ import com.muchjak56.bunkers.blocks.BlockTeleporterOverworld;
 import com.muchjak56.bunkers.blocks.BunkerGlassPane;
 import com.muchjak56.bunkers.blocks.BunkerGlassPillarBlock;
 import com.muchjak56.bunkers.blocks.BunkerLightBlock;
-
 import com.muchjak56.bunkers.blocks.BunkerWall;
 import com.muchjak56.bunkers.blocks.CatWalk;
 import com.muchjak56.bunkers.blocks.CronoCrystalFormation;
@@ -22,13 +21,12 @@ import com.muchjak56.bunkers.blocks.InferniumOre;
 import com.muchjak56.bunkers.blocks.MosaicBlock;
 import com.muchjak56.bunkers.blocks.RoundLog;
 import com.muchjak56.bunkers.blocks.RoundLogTop;
+import com.muchjak56.bunkers.blocks.Skewers;
 import com.muchjak56.bunkers.blocks.SolarLight;
 import com.muchjak56.bunkers.blocks.UltimumBlock;
 import com.muchjak56.bunkers.blocks.UltimumOre;
 import com.muchjak56.bunkers.blocks.UltimumTorch;
 import com.muchjak56.bunkers.blocks.UnstableMatter;
-
-
 import com.muchjak56.bunkers.blocks.blocktype.DoorType;
 import com.muchjak56.bunkers.blocks.blocktype.ExplosiveType;
 import com.muchjak56.bunkers.blocks.blocktype.FenceType;
@@ -40,7 +38,6 @@ import com.muchjak56.bunkers.blocks.blocktype.StairType;
 import com.muchjak56.bunkers.blocks.blocktype.TorchType;
 import com.muchjak56.bunkers.blocks.blocktype.WallType;
 import com.muchjak56.bunkers.blocks.machine.hyposmelter.BlockHypoSmelter;
-
 import com.muchjak56.bunkers.blocks.machine.jumppad.JumpPad;
 import com.muchjak56.bunkers.blocks.machine.jumppad.JumpPadAngle;
 import com.muchjak56.bunkers.blocks.machine.jumppad.JumpPadAngleT2;
@@ -55,7 +52,6 @@ import com.muchjak56.bunkers.blocks.machine.nanowall.NanoWallOn;
 import com.muchjak56.bunkers.blocks.machine.ultimumcharger.BlockUltimumCharger;
 import com.muchjak56.bunkers.blocks.machine.xray.XrayDevice;
 import com.muchjak56.bunkers.blocks.machine.xray.XrayOn;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
@@ -324,6 +320,7 @@ public class ModBlocks
 	
 	
 	
+	
 	//Glass Blocks
 	public static final Block BUNKER_GLASS_PORT_BLOCK = new GlassType("bunker_glass_port_block", Material.GLASS,true);
 	public static final Block BUNKER_GLASS_PORT_BLOCK_RED = new GlassType("bunker_glass_port_block_red", Material.GLASS,true).setCreativeTab(Bunkers.bunkerdecortab);
@@ -375,6 +372,9 @@ public class ModBlocks
 	public static final Block NANO_WALL_ON = new NanoWallOn("nano_wall_on", false, Material.IRON);
 	
 	public static final Block BARBED_WIRE = new BarbedWire("barbed_wire", Material.IRON);
+	public static final Block SKEWERS = new Skewers("skewers", Material.IRON);
+	
+	
 	
 	public static final Block JUMP_PAD = new JumpPad("jump_pad", Material.IRON);
 	public static final Block JUMP_PAD_T2 = new JumpPadT2("jump_pad_t2", Material.IRON);
