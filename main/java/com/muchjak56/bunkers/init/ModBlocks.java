@@ -16,6 +16,7 @@ import com.muchjak56.bunkers.blocks.BunkerLightBlock;
 import com.muchjak56.bunkers.blocks.BunkerWall;
 import com.muchjak56.bunkers.blocks.CatWalk;
 import com.muchjak56.bunkers.blocks.CronoCrystalFormation;
+import com.muchjak56.bunkers.blocks.EnergyFence;
 import com.muchjak56.bunkers.blocks.ForceField;
 import com.muchjak56.bunkers.blocks.InferniumOre;
 import com.muchjak56.bunkers.blocks.MosaicBlock;
@@ -193,6 +194,7 @@ public class ModBlocks
 	//Fence
 	public static final Block BUNKER_FENCE = new FenceType("bunker_fence", Material.IRON, MapColor.IRON);
 	public static final Block BUNKER_WALL = new BunkerWall("bunker_wall", Material.IRON, BUNKER_WALL_BLOCK);
+	public static final Block ENERGY_FENCE = new EnergyFence("energy_fence", Material.IRON, BUNKER_GLASS_PILLAR_BLOCK);
 	
 	
 	
