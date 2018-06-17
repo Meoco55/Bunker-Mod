@@ -1,0 +1,40 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+        "0": "mbm:blocks/hardened_impurities",
+        "1": "mbm:blocks/bunkerglasspillar"
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 8.0, 0.0, 0.0 ], 
+            "to": [ 8.0, 16.0, 7.0 ], 
+            "faces": {
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 7.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 7.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.0, 0.0, 7.0 ], 
+            "to": [ 9.0, 16.0, 9.0 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0.0, 0.0, 2.5, 16.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 2.5, 16.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 0.0, 2.5, 16.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 2.5, 16.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 2.5, 2.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 2.5, 2.0 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 8.0, 0.0, 9.0 ], 
+            "to": [ 8.0, 16.0, 16.0 ], 
+            "faces": {
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 7.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 7.0, 16.0 ] }
+            }
+        }
+    ]
+}
