@@ -47,6 +47,7 @@ public class EnergyFence extends WallType
 	@Override
     public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos)
     {
+		 blockState = this.getActualState(blockState, worldIn, pos);
         return NULL_AABB;
     }
 	@Override
@@ -55,9 +56,11 @@ public class EnergyFence extends WallType
 		if(entityIn instanceof Entity && !(entityIn instanceof EntityPlayer)) 
     	{
 			entityIn.attackEntityFrom(DamageSource.GENERIC, 4.0F);
-			entityIn.motionX *= 0.00001D;
-			entityIn.motionY *= 0.00001D;
-			entityIn.motionZ *= 0.00001D;
     	}
+    }
+	@Override
+	public boolean isPassable(IBlockAccess worldIn, BlockPos pos)
+    {
+        return true;
     }
 }
