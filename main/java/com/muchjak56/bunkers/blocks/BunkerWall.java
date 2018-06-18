@@ -25,7 +25,7 @@ public class BunkerWall extends WallType
 		setHardness(2.0F);
 		setResistance(10.0F);
 		setHarvestLevel("pickaxe", 2);
-		setCreativeTab(Bunkers.bunkerdecortab);
+		setCreativeTab(Bunkers.bunkerblockstab);
 		setLightOpacity(0);
 	}
 	public BlockRenderLayer getBlockLayer()

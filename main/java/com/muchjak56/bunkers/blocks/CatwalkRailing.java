@@ -1,8 +1,5 @@
 package com.muchjak56.bunkers.blocks;
 
-
-import com.muchjak56.bunkers.init.ModBlocks;
-
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
@@ -11,37 +8,65 @@ import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.item.ItemStack;
-import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumBlockRenderType;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.Rotation;
+import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-public class BunkerLightBlock extends BlockBase
+public class CatwalkRailing extends BlockBase
 {
-	//sets face toward player
-		public static final PropertyDirection FACING = BlockHorizontal.FACING;
+	public static final PropertyDirection FACING = BlockHorizontal.FACING;
+	protected static final AxisAlignedBB TORCH_NORTH_AABB = new AxisAlignedBB(0.0D, 0.0D, 0.0D, 1.0D, 1.0D, 0.1D);
+    protected static final AxisAlignedBB TORCH_SOUTH_AABB = new AxisAlignedBB(0.0D, 0.0D, 0.9D, 1.0D, 1.0D, 1.0D);
+    protected static final AxisAlignedBB TORCH_WEST_AABB = new AxisAlignedBB(0.0D, 0.0D, 0.0D, 0.1D, 1.0D, 1.0D);
+    protected static final AxisAlignedBB TORCH_EAST_AABB = new AxisAlignedBB(0.9D, 0.0D, 0.0D, 1.0D, 1.0D, 1.0D);
 
-	public BunkerLightBlock(String name, Material material) {
+	public CatwalkRailing(String name, Material material) {
 		super(name, material);
-		
-		
-
-		setSoundType(SoundType.GLASS);
+		setLightOpacity(1);
+		setSoundType(SoundType.METAL);
 		setHardness(2.0F);
 		setResistance(10.0F);
-		setHarvestLevel("pickaxe", 0);
-		setLightLevel(1.0F);
-		setLightOpacity(0);
-		//setBlockUnbreakable();
+		setHarvestLevel("pickaxe", 2);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 	}
+	public BlockRenderLayer getBlockLayer()
+    {
+        return BlockRenderLayer.CUTOUT;
+    }
 	
+	public boolean isOpaqueCube(IBlockState state)
+    {
+        return false;
+    }
+	@Override
+	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos)
+    {
+        switch ((EnumFacing)state.getValue(FACING))
+        {
+            case EAST:
+                return TORCH_EAST_AABB;
+            case WEST:
+                return TORCH_WEST_AABB;
+            case SOUTH:
+                return TORCH_SOUTH_AABB;
+            case NORTH:
+                return TORCH_NORTH_AABB;
+            default:
+                return null;
+        }
+    }
+	public boolean isFullCube(IBlockState state)
+    {
+        return false;
+    }
 	public void onBlockAdded(World worldIn, BlockPos pos, IBlockState state)
 	{
 		if (!worldIn.isRemote) 
@@ -108,7 +133,6 @@ public class BunkerLightBlock extends BlockBase
 	public int getMetaFromState(IBlockState state) 
 	{
 		return ((EnumFacing)state.getValue(FACING)).getIndex();
-	}	
-	
+	}
 
 }

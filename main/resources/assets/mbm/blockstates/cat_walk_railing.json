@@ -1,0 +1,10 @@
+{
+    "variants": 
+    {
+        "facing=north": { "model": "mbm:cat_walk_railing" },
+        "facing=east": { "model": "mbm:cat_walk_railing", "y": 90 },
+        "facing=south": { "model": "mbm:cat_walk_railing", "y": 180 },
+        "facing=west": { "model": "mbm:cat_walk_railing", "y": 270 }
+        
+    }
+}

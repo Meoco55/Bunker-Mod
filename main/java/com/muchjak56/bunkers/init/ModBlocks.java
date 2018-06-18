@@ -15,6 +15,7 @@ import com.muchjak56.bunkers.blocks.BunkerGlassPillarBlock;
 import com.muchjak56.bunkers.blocks.BunkerLightBlock;
 import com.muchjak56.bunkers.blocks.BunkerWall;
 import com.muchjak56.bunkers.blocks.CatWalk;
+import com.muchjak56.bunkers.blocks.CatwalkRailing;
 import com.muchjak56.bunkers.blocks.CronoCrystalFormation;
 import com.muchjak56.bunkers.blocks.EnergyFence;
 import com.muchjak56.bunkers.blocks.ForceField;
@@ -175,6 +176,7 @@ public class ModBlocks
 	public static final Block PURITIES_PILLAR = new PillarType("purities_pillar", Material.ROCK);
 	
 	public static final Block CAT_WALK_BLOCK = new CatWalk("cat_walk_block", Material.IRON);
+	public static final Block CAT_WALK_RAILING = new CatwalkRailing("cat_walk_railing", Material.IRON);
 	public static final Block ULTIMUM_BLOCK = new UltimumBlock("ultimum_block", Material.IRON);
 	
 	
